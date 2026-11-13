@@ -1,0 +1,49 @@
+# Taux d'activité selon les tranches d'âge et le Milieu (Trimestriel)
+
+- name: `data_i4250`
+- modified: 2026-10-30T10:55:24.352342
+
+## I_I4250_data.xlsx
+
+- id: `69983437-6959-400b-a723-d58c46011875`
+- format: XLSX
+- url: https://data.gov.ma/data/dataset/dc406df8-c5be-4a61-96de-328d66afc51f/resource/69983437-6959-400b-a723-d58c46011875/download/i_i4250_data.xlsx
+
+sheets: `Data`
+
+#### Sheet `Data` — 17 non-empty rows
+
+| # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 0 | Taux d'activité selon les tranches d'… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1 | Tranches d'âge | Milieu | T4-2025 | T3-2025 | T2-2025 | T1-2025 | T4-2024 | T3-2024 | T2-2024 | T1-2024 | T4-2023 | T3-2023 | T2-2023 | T1-2023 | T4-2022 | T3-2022 |
+| 2 | Ensemble | National | 44.2 | 43.3 | 43.4 | 42.9 | 43.5 | 43.6 | 44.2 | 42.6 | 43.3 | 43.2 | 44.8 | 43.1 | 43.5 | 44 |
+| 3 | Ensemble | Urbain | 42.8 | 42.3 | 42 | 41.5 | 42.1 | 42.5 | 42.3 | 41.1 | 41.4 | 41.9 | 42.6 | 41.2 | 41.3 | 41.9 |
+| 4 | Ensemble | Rural | 47 | 45.2 | 46.4 | 45.6 | 46.2 | 45.7 | 48 | 45.6 | 47 | 45.8 | 49.2 | 47 | 47.7 | 48.1 |
+| 5 | 15 - 24 | National | 23.7 | 22.7 | 21.5 | 21.7 | 23.5 | 22.6 | 22.8 | 21.5 | 23.7 | 21.8 | 22.9 | 21.9 | 23.3 | 22.3 |
+| 6 | 15 - 24 | Urbain | 22.2 | 22.2 | 20.1 | 20.6 | 22 | 21.7 | 21 | 20.4 | 21.9 | 20.4 | 20.9 | 19.5 | 21 | 20.1 |
+| 7 | 15 - 24 | Rural | 26 | 23.4 | 23.5 | 23.5 | 25.8 | 23.9 | 25.4 | 23.2 | 26.4 | 23.8 | 26 | 25.5 | 26.7 | 25.5 |
+| 8 | 25 - 34 | National | 62.4 | 61.1 | 60.7 | 60.8 | 61.1 | 61.1 | 60.3 | 59.2 | 59.4 | 60.2 | 61.1 | 59.1 | 59.1 | 59.5 |
+| 9 | 25 - 34 | Urbain | 63 | 62.1 | 61.4 | 61.4 | 61.6 | 62.2 | 60.4 | 60 | 59.1 | 61.3 | 60.9 | 59 | 59 | 59.5 |
+| 10 | 25 - 34 | Rural | 61 | 58.9 | 59.1 | 59.6 | 59.9 | 58.8 | 60.1 | 57.5 | 60.2 | 57.7 | 61.5 | 59.2 | 59.5 | 59.6 |
+| 11 | 35 - 44 | National | 58.8 | 58.5 | 58.7 | 57.5 | 57.8 | 57.9 | 59.7 | 57.6 | 57.6 | 57.6 | 59.7 | 57.5 | 58.5 | 58.5 |
+| 12 | 35 - 44 | Urbain | 57.7 | 57.9 | 57.5 | 56.2 | 56.7 | 56.9 | 57.9 | 56.2 | 56 | 56.1 | 57.6 | 55.5 | 56.8 | 56.9 |
+| 13 | 35 - 44 | Rural | 61.4 | 60 | 61.7 | 60.7 | 60.4 | 60.1 | 63.9 | 60.8 | 61.2 | 61 | 64.3 | 61.9 | 62.4 | 63 |
+
+## I_I4250_metadata.xlsx
+
+- id: `ef65d461-1b78-47f2-993d-bdb3287fa4b0`
+- format: XLSX
+- url: https://data.gov.ma/data/dataset/dc406df8-c5be-4a61-96de-328d66afc51f/resource/ef65d461-1b78-47f2-993d-bdb3287fa4b0/download/i_i4250_metadata.xlsx
+
+sheets: `Metadata`
+
+#### Sheet `Metadata` — 5 non-empty rows
+
+| # | A | B |
+|---|---|---|
+| 0 | L'indicateur | Taux d'activité selon les tranches d'… |
+| 1 | Définition | Pour plus d'information consulter la … |
+| 2 | Périodicité | Trimestrielle |
+| 3 | Unité | % |
+| 4 | Source | Enquête nationale sur l'emploi, Haut … |

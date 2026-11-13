@@ -1,0 +1,49 @@
+# Valeurs ajoutées (cvs) aux prix de l'année précédente chainés (base 2014 ) par branche d'activité (Trimestrielle Base 2014)
+
+- name: `data_i4279`
+- modified: 2026-10-30T10:55:38.096022
+
+## I_I4279_data.xlsx
+
+- id: `7f660503-5515-4c92-b11b-53234f24d32d`
+- format: XLSX
+- url: https://data.gov.ma/data/dataset/6f875017-2373-419b-9a85-2eed7cbe0d2e/resource/7f660503-5515-4c92-b11b-53234f24d32d/download/i_i4279_data.xlsx
+
+sheets: `Data`
+
+#### Sheet `Data` — 34 non-empty rows
+
+| # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 0 | Valeurs ajoutées (cvs) aux prix de l'… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1 | Branches d'activité | T2-2026 | T1-2026 | T4-2025 | T3-2025 | T2-2025 | T1-2025 | T4-2024 | T3-2024 | T2-2024 | T1-2024 | T4-2023 | T3-2023 | T2-2023 | T1-2023 | T4-2022 |
+| 2 | Agriculture | 34015 | 33406 | 27642 | 27683 | 28076 | 28209 | 25515 | 25626 | 25915 | 26088 | 27060 | 27274 | 27378 | 27716 | 26761 |
+| 3 | Pêche | 1257 | 1302 | 1042 | 1249 | 1084 | 1328 | 1216 | 1666 | 1184 | 1341 | 1169 | 1385 | 1274 | 1143 | 1391 |
+| 4 | Industrie d’extraction | 4728 | 6119 | 5861 | 6421 | 6622 | 6321 | 5919 | 5952 | 5822 | 5781 | 5929 | 5292 | 4918 | 4917 | 4461 |
+| 5 | Industrie de transformation | 45712 | 45476 | 50347 | 48709 | 47227 | 46072 | 49324 | 48515 | 45265 | 45624 | 48753 | 46094 | 44655 | 45421 | 45073 |
+| 6 | Industrie de transformation: Fabricat… | 13109 | 12226 | 14181 | 14412 | 12728 | 12656 | 13228 | 13952 | 12172 | 12989 | 13136 | 13458 | 13145 | 12959 | 13198 |
+| 7 | Industrie de transformation: Fabricat… | 5052 | 5601 | 5749 | 6091 | 5403 | 5820 | 5736 | 6096 | 5701 | 5661 | 5793 | 5694 | 5903 | 5999 | 5963 |
+| 8 | Industrie de transformation: Fabricat… | 1825 | 1759 | 1892 | 1824 | 1878 | 1805 | 1902 | 1861 | 1809 | 1814 | 1767 | 1808 | 1805 | 1745 | 1754 |
+| 9 | Industrie de transformation: Cokéfact… | 44 | 43 | 44 | 44 | 44 | 43 | 44 | 44 | 44 | 43 | 44 | 44 | 44 | 44 | 44 |
+| 10 | Industrie de transformation: Fabricat… | 3741 | 5102 | 5545 | 5392 | 5421 | 5143 | 5827 | 5518 | 5302 | 5087 | 5820 | 4938 | 4662 | 4850 | 4775 |
+| 11 | Industrie de transformation: Fabricat… | 2577 | 2664 | 3146 | 1932 | 2502 | 2549 | 2460 | 2308 | 2330 | 2297 | 2270 | 2415 | 2382 | 2095 | 2096 |
+| 12 | Industrie de transformation: Fabricat… | 5509 | 4902 | 5611 | 5819 | 5401 | 5085 | 5369 | 5312 | 5143 | 4941 | 5017 | 5215 | 4899 | 4937 | 4810 |
+| 13 | Industrie de transformation: Fabricat… | 3159 | 2678 | 3109 | 2641 | 2952 | 2795 | 2923 | 2872 | 2776 | 2712 | 2845 | 2727 | 2712 | 2850 | 2891 |
+
+## I_I4279_metadata.xlsx
+
+- id: `274634e4-0e6c-4b2c-9d7f-559f354b21fa`
+- format: XLSX
+- url: https://data.gov.ma/data/dataset/6f875017-2373-419b-9a85-2eed7cbe0d2e/resource/274634e4-0e6c-4b2c-9d7f-559f354b21fa/download/i_i4279_metadata.xlsx
+
+sheets: `Metadata`
+
+#### Sheet `Metadata` — 5 non-empty rows
+
+| # | A | B |
+|---|---|---|
+| 0 | L'indicateur | Valeurs ajoutées (cvs) aux prix de l'… |
+| 1 | Définition | Optique production : le PIB au prix d… |
+| 2 | Périodicité | Trimestrielle |
+| 3 | Unité | En millions de dhs |
+| 4 | Source | HCP-Direction de la comptabilité nati… |
