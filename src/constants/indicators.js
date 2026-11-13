@@ -216,7 +216,7 @@ export const BASE_INDICATORS = [
     availableYears: { min: 2000, max: 2024 }, availableRegions: "all"
   },
   {
-    id: "couverture_medicale", label: "Couverture médicale", category: "sante",
+    id: "couverture_medicale", label: "Couverture maladie des salariés", category: "sante",
     unit: "%", description: "Pourcentage de la population bénéficiant d\'une couverture médicale",
     datasetId: "indicateurs-sante", resourceId: "", resourceUrl: "",
     fieldName: "couverture_medicale", yearField: "annee", regionField: "region",
