@@ -20,3 +20,4 @@ coverage/
 *.log
 npm-debug.log*
 manifest.prod.xml
+dist-test/

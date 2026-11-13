@@ -19,7 +19,8 @@
     "snapshots": "node scripts/build-snapshots.js",
     "data:refresh": "node scripts/map-indicators.js && node scripts/build-snapshots.js",
     "build:pages": "VITE_DATA_SOURCE=static vite build",
-    "inspect": "node scripts/inspect-datasets.js"
+    "inspect": "node scripts/inspect-datasets.js",
+    "build:test-html": "node scripts/build-test-html.js"
   },
   "dependencies": {
     "pptxgenjs": "^3.12.0",

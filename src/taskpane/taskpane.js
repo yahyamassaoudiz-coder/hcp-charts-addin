@@ -38,7 +38,7 @@ import {
   suggestChartType,
   checkCompatibility
 } from "../constants/chartTypes.js";
-import { INDICATOR_STATS } from "../constants/indicators.js";
+import { INDICATOR_STATS, applySnapshotStatus } from "../constants/indicators.js";
 import STRINGS from "../constants/strings.js";
 import { escapeHtml, validateYearRange } from "../utils/sanitize.js";
 
@@ -116,8 +116,16 @@ async function init() {
   populateRegions();
   populateIndicators();
   populateChartTypes();
-  if (INDICATOR_STATS.mapped === 0) {
-    showNotes(["Aucun indicateur n'est encore relié à data.gov.ma. Lancez « npm run map-indicators » puis rechargez."]);
+
+  let available = INDICATOR_STATS.mapped;
+  if (DataService.getDataSource() === "static") {
+    const status = await DataService.fetchSnapshotStatus();
+    if (status) { available = applySnapshotStatus(status); populateIndicators(); }
+  }
+  if (available === 0) {
+    showNotes([DataService.getDataSource() === "static"
+      ? "Aucun indicateur n'a encore de données publiées. Elles apparaîtront après la prochaine actualisation."
+      : "Aucun indicateur n'est encore relié à data.gov.ma. Lancez « npm run map-indicators » puis rechargez."]);
   }
   bindEvents();
   updateInsertButton();

@@ -209,8 +209,9 @@ export function normalizeMultiSeries(fetchResults, filters) {
   const warnings = [];
   const errors = [];
 
-  for (const { indicator, result } of fetchResults) {
+  for (const { indicator: base, result } of fetchResults) {
     if (!result || !result.records) continue;
+    const indicator = result.mapping ? { ...base, ...result.mapping } : base;
     try {
       const { points, warnings: w } = normalizeDatasetDetailed(result.records, indicator, filters);
       warnings.push(...w);

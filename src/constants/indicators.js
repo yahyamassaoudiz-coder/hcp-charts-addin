@@ -317,6 +317,23 @@ export const INDICATORS = BASE_INDICATORS.map((base) => {
   return merged;
 });
 
+/**
+ * Enable/disable indicators from the live public/data/status.json (static mode).
+ * Lets an already-built add-in pick up indicators mapped after it was built.
+ * @returns {number} number of available indicators
+ */
+export function applySnapshotStatus(status) {
+  if (!status || !Array.isArray(status.indicators)) return INDICATORS.filter(i => i.mapped).length;
+  const byId = Object.fromEntries(status.indicators.map(s => [s.id, s]));
+  for (const ind of INDICATORS) {
+    const s = byId[ind.id];
+    ind.mapped = !!s?.ok;
+    ind.snapshotDate = s?.ok ? status.generatedAt : null;
+    if (s?.national === true) ind.availableRegions = "national";
+  }
+  return INDICATORS.filter(i => i.mapped).length;
+}
+
 export const MAPPING_META = {
   generatedAt: INDICATOR_MAP.generatedAt || null,
   ckanBase: INDICATOR_MAP.ckanBase || null,

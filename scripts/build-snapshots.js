@@ -33,6 +33,14 @@ const DATA_DIR = path.join(ROOT, "public/data");
 const DATASTORE_PAGE = 5000;
 const DATASTORE_MAX = 50000;
 
+const MAPPING_KEYS = ["layout", "yearField", "regionField", "cityField", "valueField", "rowLabelField",
+  "rowMatch", "filters", "periodicity", "aggregate"];
+export function pickMapping(m) {
+  const out = {};
+  for (const k of MAPPING_KEYS) if (m[k] !== undefined) out[k] = m[k];
+  return out;
+}
+
 /** Raw file bytes -> row objects (same parsing as the add-in). */
 export async function parseResource(buf, format, { sheet, headerRow } = {}) {
   const F = (format || "").toUpperCase();
@@ -84,6 +92,7 @@ export function validateRows(rows, indicator) {
 export function writeStatus(generatedAt, index, map) {
   const indicators = BASE_INDICATORS.map(b => ({
     id: b.id, label: b.label, mapped: !!map[b.id]?.mapped,
+    national: map[b.id] ? !map[b.id].regionField : undefined,
     pendingReview: !!index[b.id]?.pendingReview,
     ok: !!index[b.id]?.ok, stale: !!index[b.id]?.stale, years: index[b.id]?.years || ""
   }));
@@ -129,6 +138,9 @@ async function main() {
       fs.writeFileSync(file, JSON.stringify({
         id: baseInd.id, fetchedAt: now,
         source: { datasetId: m.datasetId, datasetTitle: m.datasetTitle, resourceUrl: m.resourceUrl, lastModified: m.lastModified, method },
+        // the add-in normalises with THIS mapping, so an older build of the add-in
+        // (e.g. the standalone test HTML) stays correct when the mapping changes
+        mapping: pickMapping(m),
         records: rows
       }));
       index[baseInd.id] = { ok: true, fetchedAt: now, rows: rows.length, years: v.years, stale: false };

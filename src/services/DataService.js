@@ -172,8 +172,23 @@ export function getDataSource() {
   return import.meta.env?.VITE_DATA_SOURCE === "static" ? "static" : "proxy";
 }
 
+/** Where snapshots live: same site by default; the standalone test HTML points at GitHub Pages. */
+export function getDataBase() {
+  return import.meta.env?.VITE_DATA_BASE || import.meta.env?.BASE_URL || "./";
+}
+
+/** public/data/status.json — which indicators currently have data (null if unreachable). */
+export async function fetchSnapshotStatus() {
+  try {
+    const r = await fetch(`${getDataBase()}data/status.json`, { cache: "no-cache" });
+    return r.ok ? await r.json() : null;
+  } catch {
+    return null;
+  }
+}
+
 export async function fetchSnapshot(indicator) {
-  const base = import.meta.env?.BASE_URL || "./";
+  const base = getDataBase();
   let response;
   try {
     response = await fetch(`${base}data/${encodeURIComponent(indicator.id)}.json`, { cache: "no-cache" });
@@ -184,7 +199,8 @@ export async function fetchSnapshot(indicator) {
     throw new Error(`Pas encore de données pour « ${indicator.label} » — elles arriveront avec la prochaine actualisation nocturne.`);
   }
   const snap = await response.json();
-  return { method: "snapshot", records: snap.records || [], fetchedAt: snap.fetchedAt || null, source: snap.source || null };
+  return { method: "snapshot", records: snap.records || [], mapping: snap.mapping || null,
+           fetchedAt: snap.fetchedAt || null, source: snap.source || null };
 }
 
 // ── Smart fetch for one mapped indicator ────────────────────
@@ -245,6 +261,6 @@ const DataService = {
   discoverHCPDatasets, getDatasetDetails, bulkFetchAllDatasets,
   searchResourcesByFormat, getAllMachineReadableResources,
   datastoreSearch, smartFetch, fetchMultipleIndicators, downloadAndParse, isHcpDataset,
-  getDataSource, fetchSnapshot
+  getDataSource, fetchSnapshot, fetchSnapshotStatus, getDataBase
 };
 export default DataService;
