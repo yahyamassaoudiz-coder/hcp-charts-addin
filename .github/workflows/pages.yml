@@ -52,6 +52,15 @@ jobs:
         continue-on-error: true
         run: npm run snapshots
 
+      - name: Sample HCP files (first run, or commit message with [inspect])
+        continue-on-error: true
+        run: |
+          if [ ! -f docs/samples/INDEX.md ] || git log -1 --pretty=%B | grep -qF '[inspect]'; then
+            npm run inspect
+          else
+            echo "Samples already present — skipped."
+          fi
+
       - name: Report data.gov.ma problems
         if: steps.map.outcome == 'failure' || steps.snap.outcome == 'failure'
         run: |
@@ -68,7 +77,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898297+github-actions[bot]@users.noreply.github.com"
           git add -A src/constants/indicatorMap.json src/constants/snapshotIndex.json \
-                    src/constants/hcpCatalog.json docs/MAPPING_REPORT.md public/data 2>/dev/null || true
+                    src/constants/hcpCatalog.json docs/MAPPING_REPORT.md docs/samples public/data 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No data changes."
           else

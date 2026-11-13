@@ -18,7 +18,8 @@
     "deploy:prep": "node scripts/replace-prod-urls.js",
     "snapshots": "node scripts/build-snapshots.js",
     "data:refresh": "node scripts/map-indicators.js && node scripts/build-snapshots.js",
-    "build:pages": "VITE_DATA_SOURCE=static vite build"
+    "build:pages": "VITE_DATA_SOURCE=static vite build",
+    "inspect": "node scripts/inspect-datasets.js"
   },
   "dependencies": {
     "pptxgenjs": "^3.12.0",
