@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-11-13T23:06:48.232Z",
+  "generatedAt": "2026-11-13T23:09:50.840Z",
   "total": 29,
-  "available": 0,
+  "available": 14,
   "indicators": [
     {
       "id": "taux_chomage",
       "label": "Taux de chômage",
-      "mapped": false,
-      "national": true,
+      "mapped": true,
+      "national": false,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2015–2025"
     },
     {
       "id": "taux_emploi",
       "label": "Taux d'emploi",
-      "mapped": false,
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2012–2025"
     },
     {
       "id": "population_active",
@@ -37,31 +37,31 @@
       "id": "chomage_urbain",
       "label": "Chômage urbain",
       "mapped": true,
-      "national": true,
-      "pendingReview": true,
-      "ok": false,
+      "national": false,
+      "pendingReview": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2015–2025"
     },
     {
       "id": "chomage_rural",
       "label": "Chômage rural",
       "mapped": true,
-      "national": true,
-      "pendingReview": true,
-      "ok": false,
+      "national": false,
+      "pendingReview": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2015–2025"
     },
     {
       "id": "chomage_jeunes",
       "label": "Chômage des jeunes 15-24",
-      "mapped": false,
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2014–2025"
     },
     {
       "id": "population_totale",
@@ -114,20 +114,20 @@
       "label": "PIB (Mrd MAD)",
       "mapped": true,
       "national": true,
-      "pendingReview": true,
-      "ok": false,
+      "pendingReview": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2014–2025"
     },
     {
       "id": "croissance_pib",
       "label": "Croissance PIB",
-      "mapped": false,
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2015–2025"
     },
     {
       "id": "pib_habitant",
@@ -152,32 +152,32 @@
     {
       "id": "ipc",
       "label": "IPC (base 100)",
-      "mapped": false,
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2017–2025"
     },
     {
       "id": "inflation",
       "label": "Taux d'inflation",
-      "mapped": false,
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2018–2025"
     },
     {
       "id": "inflation_alimentaire",
       "label": "Inflation alimentaire",
-      "mapped": false,
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2018–2025"
     },
     {
       "id": "scolarisation_primaire",
@@ -208,13 +208,13 @@
     },
     {
       "id": "couverture_medicale",
-      "label": "Couverture médicale",
-      "mapped": false,
+      "label": "Couverture maladie des salariés",
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2011–2025"
     },
     {
       "id": "mortalite_infantile",
@@ -239,10 +239,10 @@
       "label": "Exportations agricoles",
       "mapped": true,
       "national": true,
-      "pendingReview": true,
-      "ok": false,
+      "pendingReview": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2014–2025"
     },
     {
       "id": "indice_production_industrielle",
@@ -257,22 +257,22 @@
     {
       "id": "exportations",
       "label": "Exportations totales",
-      "mapped": false,
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2014–2025"
     },
     {
       "id": "importations",
       "label": "Importations totales",
-      "mapped": false,
+      "mapped": true,
       "national": true,
       "pendingReview": false,
-      "ok": false,
+      "ok": true,
       "stale": false,
-      "years": ""
+      "years": "2014–2025"
     },
     {
       "id": "ide",
