@@ -296,7 +296,7 @@ const STATIC_MODE = (import.meta.env?.VITE_DATA_SOURCE || "proxy") === "static";
 
 const MAP_FIELDS = ["datasetId", "datasetTitle", "resourceId", "resourceUrl", "format", "datastoreActive",
   "layout", "yearField", "regionField", "cityField", "valueField", "rowLabelField", "rowMatch",
-  "filters", "sheet", "headerRow", "confidence", "lastModified"];
+  "filters", "sheet", "headerRow", "scale", "transform", "confidence", "lastModified"];
 
 export const INDICATORS = BASE_INDICATORS.map((base) => {
   const m = (INDICATOR_MAP.indicators || {})[base.id];

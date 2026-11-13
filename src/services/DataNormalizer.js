@@ -99,6 +99,27 @@ export function normalizeColumnNames(record) {
   return out;
 }
 
+/**
+ * Mapping-level transforms (indicatorMap.json):
+ *   scale:     multiply every value (e.g. 0.001 for millions DH -> Mrd MAD)
+ *   transform: "pct_change" -> year-on-year % change; a year is kept only when
+ *              the previous calendar year exists (growth from levels, inflation from CPI)
+ */
+export function applyTransforms(points, indicator) {
+  let out = points;
+  if (typeof indicator.scale === "number" && indicator.scale !== 1) {
+    out = out.map(p => ({ ...p, value: p.value * indicator.scale }));
+  }
+  if (indicator.transform === "pct_change") {
+    const byYear = new Map(out.map(p => [p.year, p.value]));
+    out = out
+      .filter(p => byYear.has(p.year - 1) && byYear.get(p.year - 1) !== 0)
+      .map(p => ({ ...p, value: (p.value / byYear.get(p.year - 1) - 1) * 100 }));
+  }
+  if (out !== points) out = out.map(p => ({ ...p, value: Math.round(p.value * 1000) / 1000 }));
+  return out;
+}
+
 /** Raw rows -> [{year, value, region, row}] according to the indicator mapping. */
 export function toLongRecords(records, indicator) {
   const out = [];
@@ -174,8 +195,6 @@ export function normalizeDatasetDetailed(records, indicator, filters) {
         throw new Error(`« ${indicator.label} » : pas de ligne nationale dans la source — choisissez une région.`);
       }
     }
-    if (filters.startYear) recs = recs.filter(r => r.year >= parseInt(filters.startYear, 10));
-    if (filters.endYear) recs = recs.filter(r => r.year <= parseInt(filters.endYear, 10));
   }
 
   const byYear = new Map();
@@ -188,9 +207,15 @@ export function normalizeDatasetDetailed(records, indicator, filters) {
   }
   if (dupes) warnings.push(`« ${indicator.label} » : plusieurs lignes par année (${dupes}) — ligne « Ensemble/Total » retenue. Précisez "filters" dans indicatorMap.json si besoin.`);
 
-  const points = [...byYear.values()]
+  let points = [...byYear.values()]
     .sort((a, b) => a.year - b.year)
     .map(r => ({ year: r.year, value: r.value, region: normalizeRegion(r.region), label: String(r.year), raw: r.row }));
+
+  points = applyTransforms(points, indicator);
+
+  // year range applied AFTER transforms, so a % change can use the year before the range
+  if (filters?.startYear) points = points.filter(p => p.year >= parseInt(filters.startYear, 10));
+  if (filters?.endYear) points = points.filter(p => p.year <= parseInt(filters.endYear, 10));
   return { points, warnings };
 }
 
@@ -235,6 +260,6 @@ export function normalizeMultiSeries(fetchResults, filters) {
 
 const DataNormalizer = {
   normalizeValue, extractYear, normalizeRegion, normalizeColumnNames, normKey, pick,
-  toLongRecords, normalizeDataset, normalizeDatasetDetailed, normalizeMultiSeries
+  toLongRecords, normalizeDataset, normalizeDatasetDetailed, normalizeMultiSeries, applyTransforms
 };
 export default DataNormalizer;

@@ -34,7 +34,7 @@ const DATASTORE_PAGE = 5000;
 const DATASTORE_MAX = 50000;
 
 const MAPPING_KEYS = ["layout", "yearField", "regionField", "cityField", "valueField", "rowLabelField",
-  "rowMatch", "filters", "periodicity", "aggregate"];
+  "rowMatch", "filters", "scale", "transform", "sheet", "headerRow"];
 export function pickMapping(m) {
   const out = {};
   for (const k of MAPPING_KEYS) if (m[k] !== undefined) out[k] = m[k];

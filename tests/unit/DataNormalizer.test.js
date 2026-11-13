@@ -86,3 +86,30 @@ describe("normalizeMultiSeries", () => {
     expect(err.errors[0].error).toMatch(/national/);
   });
 });
+
+describe("transforms (v1.3)", () => {
+  const wide = [
+    { "Opérations": "Produit intérieur brut", "2021": 1276563, "2022": 1333539, "2023": 1485635 },
+    { "Opérations": "Activités primaires", "2021": 152906, "2022": 130636, "2023": 169274 }
+  ];
+  const base = { label: "PIB", layout: "wide", rowLabelField: "Opérations", regionField: null, filters: { "Opérations": "Produit intérieur brut" } };
+  it("scales millions DH to Mrd MAD", () => {
+    expect(normalizeDataset(wide, { ...base, scale: 0.001 }, {}).map(p => p.value)).toEqual([1276.563, 1333.539, 1485.635]);
+  });
+  it("computes year-on-year % change, using the year before the selected range", () => {
+    const pts = normalizeDataset(wide, { ...base, transform: "pct_change" }, { startYear: 2022, endYear: 2023 });
+    expect(pts.map(p => p.year)).toEqual([2022, 2023]);
+    expect(pts[0].value).toBeCloseTo(4.463, 3);
+    expect(pts[1].value).toBeCloseTo(11.405, 3);
+  });
+  it("wide tables with several dimension columns use exact filters", () => {
+    const rows = [
+      { Milieu: "National", "Région": "Ensemble", Sexe: "Total", "2024": 13.3 },
+      { Milieu: "National", "Région": "Ensemble", Sexe: "Féminin", "2024": 19.4 },
+      { Milieu: "Urbain", "Région": "Oriental", Sexe: "Total", "2024": 25 }
+    ];
+    const ind = { label: "Chômage", layout: "wide", regionField: "Région", filters: { Milieu: "National", Sexe: "Total" } };
+    expect(normalizeDataset(rows, ind, {}).map(p => p.value)).toEqual([13.3]);
+    expect(normalizeDataset(rows, { ...ind, filters: { Milieu: "Urbain", Sexe: "Total" } }, { region: "Oriental" }).map(p => p.value)).toEqual([25]);
+  });
+});
