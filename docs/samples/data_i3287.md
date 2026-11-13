@@ -13,6 +13,11 @@ sheets: `Data`
 
 #### Sheet `Data` — 101 non-empty rows
 
+header row: 1 · data rows: 99 · year columns: 2025 … 2015 (11)
+- `Milieu` (3): `National`, `Urbain`, `Rural`
+- `Région` (11): `Ensemble`, `Tanger-Tétouan-Al Hoceïma`, `Oriental`, `Fès-Meknès`, `Rabat-Salé-Kénitra`, `Béni Mellal-Khénifra`, `Casablanca-settat`, `Marrakech-safi`, `Drâa-Tafilalet`, `Souss-Massa`, `Régions du Sud`
+- `Sexe` (3): `Total`, `Masculin`, `Féminin`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux de chômage par sexe et région (%) |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +44,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux de chômage par sexe et région` (4): `Le taux de chômage exprime la part de…`, `Annuelle`, `%`, `Enquête Emploi`
 
 | # | A | B |
 |---|---|---|

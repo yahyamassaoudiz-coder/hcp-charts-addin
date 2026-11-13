@@ -13,6 +13,11 @@ sheets: `Data`
 
 #### Sheet `Data` — 47 non-empty rows
 
+header row: 1 · data rows: 45 · year columns: 2025 … 2014 (12)
+- `Mileu` (3): `National`, `Urbain`, `Rural`
+- `Age` (5): `15 ans et plus`, `15-24 ans`, `25-34 ans`, `35-44 ans`, `45 ans et plus`
+- `Sexe` (3): `Total`, `Masculin`, `Feminin`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux de chômage selon le Milieu, le s… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +44,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux de chômage selon le Milieu, le sexe et le groupe d'âges` (4): `Le taux de chômage exprime la part de…`, `Annuelle`, `POURCENTAGE`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

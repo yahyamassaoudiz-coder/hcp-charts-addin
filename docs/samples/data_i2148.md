@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 56 non-empty rows
 
+header row: 1 · data rows: 54 · year columns: 1993 … 1974 (20)
+- `Ville` (9): `National`, `Casablanca`, `Fes`, `Kenitra`, `Marrakech`, `Oujda`, `Rabat`, `Tetouan`, `Agadir`
+- `Groupes` (6): `INDICE GENERAL`, `ALIMENTATION`, `HABILLEMENT`, `HABITATION`, `ENTRETIEN - HYGIENE ET SOINS`, `TRANSPORT - LOISIRS - DIVERS`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Indice du cout de la vie (Base 100: 1… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +43,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Indice du cout de la vie (Base 100: 1972-73) (210 articles)` (4): `Pour plus d'information consulter la …`, `Annuelle`, `Indice`, `HCP`
 
 | # | A | B |
 |---|---|---|

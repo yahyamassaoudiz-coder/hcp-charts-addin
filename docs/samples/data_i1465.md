@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 5 non-empty rows
 
+header row: 1 · data rows: 3 · year columns: 2025 … 2012 (14)
+- `Milieu de résidence` (3): `National`, `Urbain`, `Rural`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux d'emploi des 15 ans et plus (POU… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -30,6 +33,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux d'emploi des 15 ans et plus` (4): `Pour plus d'information consulter la …`, `Annuelle`, `POURCENTAGE`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

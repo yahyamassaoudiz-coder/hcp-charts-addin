@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 2746 non-empty rows
 
+header row: 1 · data rows: 2744 · year columns: 2025 … 2017 (9)
+- `Villes` (19): `National`, `Agadir`, `Casablanca`, `Fès`, `Kénitra`, `Marrakech`, `Oujda`, `Rabat`, `Tétouan`, `Meknès`, `Tanger`, `Laâyoune`, `Dakhla`, `Guelmim`, `Settat`, `Safi`, `Béni Mellal`, `Al Hoceima`, `Errachidia`
+- `Divisions et groupes de produits` (148): `(GR) GENERAL`, `(01) PRODUITS ALIMENTAIRES ET BOISSON…`, `(011) PRODUITS ALIMENTAIRES`, `(0111) PAIN ET CEREALES`, `(0112) VIANDE`, `(0113) POISSON ET FRUITS DE MER`, `(0114) LAIT, FROMAGE ET OEUFS`, `(0115) HUILES ET GRAISSES`, `(0116) FRUITS`, `(0117) LEGUMES`, `(0118) SUCRE, CONFITURE, MIEL, CHOCOL…`, `(0119) PRODUITS ALIMENTAIRES N.C.A.`, `(012) BOISSONS NON ALCOOLISÉES`, `(0121) CAFE, THE ET CACAO`, `(0122) EAUX MINERALES, BOISSONS RAFRA…`, `(02) BOISSONS ALCOOLISÉES, TABAC ET S…`, `(021) BOISSONS ALCOOLISÉES`, `(0211) SPIRITUEUX`, `(0212) VIN ET BOISSONS FERMENTÉES`, `(0213) BIÈRE`, `(022) TABAC`, `(0220) TABAC`, `(03) ARTICLES D'HABILLEMENT ET CHAUSS…`, `(031) ARTICLES D'HABILLEMENT`, `(0311) TISSUS POUR HABILLEMENT`, `(0312) VETEMENTS`, `(0313) AUTRES ARTICLES ET ACCESSOIRES…`, `(0314) NETTOYAGE, REPARATION ET LOCAT…`, `(032) CHAUSSURES`, `(0321) CHAUSSURES DIVERSES`, `(0322) CORDONNERIE`, `(04) LOGEMENT, EAU, GAZ, ELECTRICITE …`, `(041) LOYERS EFFECTIFS`, `(0411) LOYERS EFFECTIVEMENT PAYES PAR…`, `(043) ENTRETIEN ET REPARATION DE LOGE…`, `(0431) FOURNITURES POUR TRAVAUX D'ENT…`, `(0432) SERVICES CONCERNANT L'ENTRETIE…`, `(044) ALIMENTATION EN EAU ET SERVICES…`, `(0441) ALIMENTATION EN EAU ET ASSAINI…`, `(0442) Collecte des ordures ménagères`, `(0444) Services divers liés au logeme…`, `(045) ELECTRICITE, GAZ ET AUTRES COMB…`, `(0451) ELECTRICITE`, `(0452) GAZ`, `(0454) COMBUSTIBLES SOLIDES`, `(05) MEUBLES, ARTICLES DE MENAGE ET E…`, `(051) MEUBLES, ARTICLES D'AMEUBLEMENT…`, `(0511) MEUBLES ET ARTICLES D'AMEUBLEM…`, `(0512) TAPIS ET REVÊTEMENTS DE SOL DI…`, `(052) ARTICLES DE MÉNAGE EN TEXTILES`, `(0520) ARTICLES DE MENAGE EN TEXTILES`, `(053) APPAREILS MÉNAGERS`, `(0531) GROS APPAREILS MENAGERS,ELECTR…`, `(0532) PETITS APPAREILS ÉLECTROMÉNAGE…`, `(0533) REPARATION D'APPAREILS MÉNAGERS`, `(054) VERRERIE, VAISSELLE ET USTENSIL…`, `(0540) VERRERIE, VAISSELLE ET USTENSI…`, `(055) OUTILLAGE ET AUTRE MATÉRIEL POU…`, `(0552) PETIT OUTILLAGE ET ACCESSOIRES…`, `(056) BIENS ET SERVICES LIÉS À L'ENTR…` …
+
 | # | A | B | C | D | E | F | G | H | I | J | K |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Indice des prix à la consommation (Ba… |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +43,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Indice des prix à la consommation (Base 100 2017)` (4): `L'indice des prix à la consommation (…`, `Annuelle`, `Indice`, `Division des Indices Statistiques (HC…`
 
 | # | A | B |
 |---|---|---|

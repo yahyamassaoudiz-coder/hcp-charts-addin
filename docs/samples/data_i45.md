@@ -13,6 +13,11 @@ sheets: `Data`
 
 #### Sheet `Data` — 38 non-empty rows
 
+header row: 1 · data rows: 36 · year columns: 2025 … 1996 (30)
+- `Milieu de résidence` (3): `National`, `Urbain`, `Rural`
+- `Sexe` (3): `Total`, `Masculin`, `Feminin`
+- `Durée de chômage` (4): `Moins de 12 mois`, `12-35 mois`, `36-59 mois`, `60 mois et plus`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Part de la population active en chôma… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +44,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Part de la population active en chômage` (4): `Pour plus d'information consulter la …`, `Annuelle`, `POURCENTAGE`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

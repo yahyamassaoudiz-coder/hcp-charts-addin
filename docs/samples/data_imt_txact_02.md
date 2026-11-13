@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 214 non-empty rows
 
+header row: 1 · data rows: 212 · year columns: 2025 … 2017 (9)
+- `Milieu` (3): `National`, `Urbain`, `Rural`
+- `Provinces/Préfectures` (74): `Al Hoceima`, `Chefchaouen`, `Fahs-Anjra`, `Larache`, `Ouezzane`, `Tanger-Assilah`, `Tétouan`, `M'Diq-Fnideq`, `Berkane`, `Driouch`, `Figuig`, `Guercif`, `Jerada`, `Nador`, `Oujda-Angad`, `Taourirt`, `Meknès`, `Boulemane`, `El Hajeb`, `Fès`, `Ifrane`, `Sefrou`, `Taounate`, `Taza`, `Moulay Yacoub`, `Kénitra`, `Khémisset`, `Rabat`, `Salé`, `Sidi Kacem`, `Sidi Slimane`, `Skhirate-Témara`, `Azilal`, `Béni Mellal`, `Fquih Ben Salah`, `Khénifra`, `Khouribga`, `Benslimane`, `Berrechid`, `Casablanca`, `El Jadida`, `Médiouna`, `Mohammadia`, `Nouaceur`, `Settat`, `Sidi Bennour`, `Al Haouz`, `Chichaoua`, `El Kelâa des Sraghna`, `Essaouira`, `Marrakech`, `Rehamna`, `Safi`, `Youssoufia`, `Errachidia`, `Midelt`, `Ouarzazate`, `Tinghir`, `Zagora`, `Agadir-Ida-Ou-Tanane` …
+
 | # | A | B | C | D | E | F | G | H | I | J | K |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux d'activité selon les Provinces/P… |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +43,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux d'activité selon les Provinces/Préfectures et le Milieu` (4): `Taux d'activité selon les Provinces/P…`, `Annuelle`, `POURCENTAGE`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

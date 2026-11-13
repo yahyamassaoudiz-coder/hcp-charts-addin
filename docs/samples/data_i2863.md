@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 5 non-empty rows
 
+header row: 1 · data rows: 3 · year columns: 2025 … 2011 (15)
+- `niveau du diplôme` (3): `Sans diplôme`, `Niveau moyen`, `Niveau supérieur`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Structure des actifs occupés (%) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -30,6 +33,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Structure des actifs occupés` (4): `Pour plus d'information consulter la …`, `Annuelle`, `%`, `Enquête Emploi`
 
 | # | A | B |
 |---|---|---|

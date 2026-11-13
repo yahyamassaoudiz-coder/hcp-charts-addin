@@ -13,6 +13,8 @@ sheets: `Data`
 
 #### Sheet `Data` — 3 non-empty rows
 
+header row: 1 · data rows: 1 · year columns: 2020 … 2007 (14)
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Exportations de biens et services aux… |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -28,6 +30,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 6 non-empty rows
+
+header row: 0 · data rows: 5 · year columns: none
+- `L'indicateur` (5): `Définition`, `Périodicité`, `Unité`, `Source`, `Observation`
+- `Exportations de biens et services aux prix constants (Annuelle Base 2007)` (5): `Pour plus d'information consulter la …`, `Annuelle`, `En millions de dhs`, `HAUT COMMISSARIAT AU PLAN (DIRECTION …`, `En volume aux prix de l’année précéde…`
 
 | # | A | B |
 |---|---|---|

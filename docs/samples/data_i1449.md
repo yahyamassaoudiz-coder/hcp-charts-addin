@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 7 non-empty rows
 
+header row: 1 · data rows: 5 · year columns: 2020 … 2007 (14)
+- `Groupes de produits` (5): `Total`, `Agriculture`, `Industrie`, `Bâtiment et travaux publics`, `Services`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Formation brut du capital fixe aux pr… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -32,6 +35,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 6 non-empty rows
+
+header row: 0 · data rows: 5 · year columns: none
+- `L'indicateur` (5): `Définition`, `Périodicité`, `Unité`, `Source`, `Observation`
+- `Formation brut du capital fixe aux prix constants (Annuelle Base 2007)` (5): `Pour plus d'information consulter la …`, `Annuelle`, `En millions de dhs`, `HAUT COMMISSARIAT AU PLAN (DIRECTION …`, `En volume aux prix de l’année précéde…`
 
 | # | A | B |
 |---|---|---|

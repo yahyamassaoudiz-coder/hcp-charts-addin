@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 17 non-empty rows
 
+header row: 1 · data rows: 15 · year columns: 2025 … 1999 (27)
+- `Tranches d'âge` (5): `Ensemble`, `15 - 24`, `25 - 34`, `35 - 44`, `45 et plus`
+- `Milieu` (3): `National`, `Urbain`, `Rural`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux d'activité selon les tranches d'… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +43,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux d'activité selon les tranches d'âge et le Milieu` (4): `Pour plus d'information consulter la …`, `Annuelle`, `%`, `Enquête nationale sur l'emploi, Haut …`
 
 | # | A | B |
 |---|---|---|

@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 33 non-empty rows
 
+header row: 1 · data rows: 31 · year columns: 2025 … 2014 (12)
+- `Produits` (31): `Total`, `Agriculture et sylviculture`, `Pêche et aquaculture`, `Extraction`, `Industries manufacturières`, `Fabrication de produits alimentaires …`, `Fabrication de textiles, d’articles d…`, `Fabrication d’articles en bois et en …`, `Cokéfaction et raffinage`, `Fabrication de produits chimiques`, `Fabrication de produits pharmaceutiqu…`, `Fabrication d’articles en caoutchouc …`, `Fabrication de produits métallurgique…`, `Fabrication d’ordinateurs, d’articles…`, `Fabrication d'équipements électriques`, `Fabrication de machines et de matérie…`, `Fabrication de matériel de transport`, `Autres activités de fabrication (y.c …`, `Distribution d’électricité et de gaz-…`, `Construction`, `Commerce de gros et de détail; répara…`, `Transports et entreposage`, `Activités d’hébergement et de restaur…`, `Information et communication`, `Activités financières et d'assurance`, `Activités immobilières`, `Recherches et développement et servic…`, `Administration publique; sécurité soc…`, `Education, santé humaine et activités…`, `Autres services`, `Correction territoriale`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Dépenses de consommation finale des m… |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +42,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Dépenses de consommation finale des ménages en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)` (4): `Elles recouvrent les dépenses que ces…`, `Annuelle`, `En millions de dhs`, `HCP-Direction de la comptabilité nati…`
 
 | # | A | B |
 |---|---|---|

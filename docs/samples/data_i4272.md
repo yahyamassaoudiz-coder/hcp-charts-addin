@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 21 non-empty rows
 
+header row: 1 · data rows: 19 · year columns: 2025 … 2014 (12)
+- `Opérations` (19): `Produit intérieur brut`, `Activités primaires`, `Activités primaires:Agriculture et sy…`, `Activités primaires: Pêche et aquacul…`, `Activités secondaires`, `Activités secondaires: Industrie d’ex…`, `Activités secondaires: Industries man…`, `Activités secondaires: Cokéfaction et…`, `Activités secondaires: Electricité, g…`, `Activités secondaires: Construction`, `Activités tertiaires`, `Activités tertiaires : Commerce et ré…`, `Activités tertiaires : Transports et …`, `Activités tertiaires : Hébergement et…`, `Activités tertiaires : Information et…`, `Activités tertiaires : Autres services`, `Activités tertiaires : Administration…`, `Valeur ajoutée aux prix de base`, `Impôts sur les produits nets de subve…`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Produit intérieur brut par secteur d’… |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +42,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Produit intérieur brut par secteur d’activité à prix courants (Annuelle Base 2014)` (4): `Le PIB au prix de marché est la total…`, `Annuelle`, `En millions de dhs`, `HCP-Direction de la comptabilité nati…`
 
 | # | A | B |
 |---|---|---|

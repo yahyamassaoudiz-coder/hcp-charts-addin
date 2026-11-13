@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 11 non-empty rows
 
+header row: 1 · data rows: 9 · year columns: 2025 … 1977 (49)
+- `Milieu de résidence` (3): `National`, `Urbain`, `Rural`
+- `Sexe` (3): `Total`, `Masculin`, `Feminin`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux net d'activité (POURCENTAGE) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -36,6 +40,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux net d'activité` (4): `Pour plus d'information consulter la …`, `Annuelle`, `POURCENTAGE`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 35 non-empty rows
 
+header row: 1 · data rows: 33 · year columns: 2024 … 2017 (8)
+- `Région` (11): `Ensemble`, `Tanger-Tétouan-Al Hoceïma`, `Oriental`, `Fès-Meknès`, `Rabat-Salé-Kénitra`, `Béni Mellal-Khénifra`, `Casablanca-settat`, `Marrakech-safi`, `Drâa-Tafilalet`, `Souss-Massa`, `Régions du Sud`
+- `Sexe` (3): `Total`, `Masculin`, `Feminin`
+
 | # | A | B | C | D | E | F | G | H | I | J |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux d'activité par sexe et région (%) |  |  |  |  |  |  |  |  |  |
@@ -39,6 +43,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux d'activité par sexe et région` (4): `Le taux d’activité de la population â…`, `Annuelle`, `%`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

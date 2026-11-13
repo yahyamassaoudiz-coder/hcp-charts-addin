@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 7 non-empty rows
 
+header row: 1 · data rows: 5 · year columns: 2025 … 2014 (12)
+- `Produits` (5): `Total`, `Agriculture, forêt et services annexes`, `Industrie`, `Bâtiment et travaux publics`, `Services`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Formation brute de capital fixe par p… |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -32,6 +35,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Formation brute de capital fixe par produit en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)` (4): `La formation brute de capital fixe (F…`, `Annuelle`, `En millions de dhs`, `HCP-Direction de la comptabilité nati…`
 
 | # | A | B |
 |---|---|---|

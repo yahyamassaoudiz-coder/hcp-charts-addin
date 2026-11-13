@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 7 non-empty rows
 
+header row: 1 · data rows: 5 · year columns: 2019 … 2007 (13)
+- `Composante de revenu` (5): `Total`, `Rémunérations de salariés`, `Excédent brut d’exploitation et reven…`, `Impôts sur la production et les impor…`, `Subventions`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Produit intérieur brut (approche par … |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -32,6 +35,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Produit intérieur brut (approche par le revenu) (Annuelle Base 2007)` (4): `Pour plus d'information consulter la …`, `Annuelle`, `Millions de dhs`, `Direction de la comptabilité nationale`
 
 | # | A | B |
 |---|---|---|

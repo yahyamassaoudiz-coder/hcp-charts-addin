@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 5 non-empty rows
 
+header row: 1 · data rows: 3 · year columns: 2025 … 2011 (15)
+- `Sexe` (3): `National`, `Masculin`, `Féminin`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux de couverture des travailleurs s… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -30,6 +33,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux de couverture des travailleurs salariés de 15 ans et plus par une assurance maladie liée à leur emploi` (4): `Pour plus d'information consulter la …`, `Annuelle`, `%`, `Enquête Emploi`
 
 | # | A | B |
 |---|---|---|

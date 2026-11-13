@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 7 non-empty rows
 
+header row: 1 · data rows: 5 · year columns: 2025 … 2011 (15)
+- `statut professionnel` (5): `Salariés`, `Indépendants`, `Employeurs`, `Aides familiales et apprentis`, `Autres statuts`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Structure des actifs occupés selon le… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -32,6 +35,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Structure des actifs occupés selon le status professionnel` (4): `Pour plus d'information consulter la …`, `Annuelle`, `%`, `Enquête Emploi`
 
 | # | A | B |
 |---|---|---|

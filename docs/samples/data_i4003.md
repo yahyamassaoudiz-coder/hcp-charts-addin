@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 32 non-empty rows
 
+header row: 1 · data rows: 30 · year columns: 2025 … 2018 (8)
+- `Sexe` (3): `Total`, `Masculin`, `Feminin`
+- `Profession` (10): `Total`, `Responsables hiérarchiques, cadres su…`, `Techniciens et professions intermédia…`, `Employés`, `Commerçants et intermédiaires commerc…`, `Exploitants agricoles, pêcheurs de po…`, `Artisans et ouvriers qualifiés des mé…`, `Ouvriers et manœuvres agricoles et de…`, `Conducteurs d'installations et de mac…`, `Manœuvres non agricoles, manutentionn…`
+
 | # | A | B | C | D | E | F | G | H | I | J |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 0 | La population active occupée selon le… |  |  |  |  |  |  |  |  |  |
@@ -39,6 +43,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `La population active occupée selon le sexe et la profession` (4): `La population active occupée comprend…`, `Annuelle`, `POURCENTAGE`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

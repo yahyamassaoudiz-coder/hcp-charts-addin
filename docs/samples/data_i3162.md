@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 24 non-empty rows
 
+header row: 1 · data rows: 22 · year columns: 2020 … 2007 (14)
+- `Branches d'activités` (22): `Total`, `Agriculture, forêt et services annexes`, `Pêche, aquaculture`, `Industrie d’extraction`, `Industries de transformation`, `Industries alimentaires et tabac`, `Industries du textile et du cuir`, `Industrie chimique et parachimique`, `Industrie mécanique, métallurgique et…`, `Autres industries manufacturières hor…`, `Raffinage de pétrole et autres produi…`, `Electricité et eau`, `Bâtiment et travaux publics`, `Commerce`, `Hôtels et restaurants`, `Transports`, `Postes et télécommunications`, `Activités financières et assurances`, `Immobilier, location et services rend…`, `Administration publique générale et s…`, `Education, santé et action sociale`, `Autres services non financiers`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Valeur ajoutée aux prix constants (An… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +42,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 6 non-empty rows
+
+header row: 0 · data rows: 5 · year columns: none
+- `L'indicateur` (5): `Définition`, `Périodicité`, `Unité`, `Source`, `Observation`
+- `Valeur ajoutée aux prix constants (Annuelle Base 2007)` (5): `Pour plus d'information consulter la …`, `Annuelle`, `En millions de dhs`, `HCP-Direction de la comptabilité nati…`, `En volume aux prix de l’année précéde…`
 
 | # | A | B |
 |---|---|---|

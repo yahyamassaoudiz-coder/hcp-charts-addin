@@ -13,6 +13,11 @@ sheets: `Data`
 
 #### Sheet `Data` — 137 non-empty rows
 
+header row: 1 · data rows: 135 · year columns: 2014 … 1977 (37)
+- `Milieu de résidence` (3): `National`, `Urbain`, `Rural`
+- `Sexe` (3): `Total`, `Masculin`, `Feminin`
+- `Régions` (15): `Ensemble`, `Souss-Massa-Draâ`, `Gharb-Chrarda-Beni Hssen`, `Chaouia-Ourdigha`, `Marrakech-Tensift- Al Haouz`, `Oriental`, `Grand Casablanca`, `Rabat-Salé-Zemmour-Zaër`, `Doukala-Abda`, `Tadla-Azilal`, `Meknès-Tafilalet`, `Fès-Boulmane`, `Taza-Al Hoceima- Taounate`, `Tanger-Tetouan`, `Oued Ed-Dahab-Lagouira, Laayoune-Bouj…`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Taux de chômage selon le Milieu, le s… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +44,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux de chômage selon le Milieu, le sexe et les régions` (4): `Pour plus d'information consulter la …`, `Annuelle`, `POURCENTAGE`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

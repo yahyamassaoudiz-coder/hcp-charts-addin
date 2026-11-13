@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 23 non-empty rows
 
+header row: 1 · data rows: 21 · year columns: 2025 … 2020 (6)
+- `Milieu` (3): `National`, `Urbain`, `Rural`
+- `Diplômes` (7): `Total`, `Diplômes et certificats de l'enseigne…`, `Diplômes de l'enseignement secondaire…`, `Diplômes de l'enseignement supérieur`, `Diplômes de techniciens spécialisés e…`, `Diplômes en qualification/spécialisat…`, `Aucun diplôme`
+
 | # | A | B | C | D | E | F | G | H |
 |---|---|---|---|---|---|---|---|---|
 | 0 | Taux de chômage selon le Milieu, les … |  |  |  |  |  |  |  |
@@ -39,6 +43,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Taux de chômage selon le Milieu, les diplômes` (4): `Pour plus d'information consulter la …`, `Annuelle`, `POURCENTAGE`, `MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI`
 
 | # | A | B |
 |---|---|---|

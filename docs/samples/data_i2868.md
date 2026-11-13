@@ -13,6 +13,10 @@ sheets: `Data`
 
 #### Sheet `Data` — 11 non-empty rows
 
+header row: 1 · data rows: 9 · year columns: 2025 … 2011 (14)
+- `Milieu` (3): `National`, `Urbain`, `Rural`
+- `Sexe` (3): `Total`, `Masculin`, `Feminin`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Effectif des chômeurs (milliers) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -36,6 +40,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Effectif des chômeurs` (4): `Pour plus d'information consulter la …`, `Annuelle`, `milliers`, `Enquête Emploi`
 
 | # | A | B |
 |---|---|---|

@@ -13,6 +13,9 @@ sheets: `Data`
 
 #### Sheet `Data` — 32 non-empty rows
 
+header row: 1 · data rows: 30 · year columns: 2021 … 1998 (24)
+- `Activités économiques` (30): `Produits des industries extractives`, `Produits des industries manufacturièr…`, `Production et distribution d'électric…`, `Production et distribution d'eau`, `Hydrocarbures`, `Minerais métalliques`, `Autres produits des industries extrac…`, `Produits des industries alimentaires`, `Boissons`, `Produits à base de tabac`, `Produits de l'industrie de textile`, `Articles d'habillement`, `Cuir et articles en cuir et chaussure…`, `Bois et articles en bois et en liège,…`, `Papier et du carton`, `Travaux d'imprimerie et de reproducti…`, `Produits de la cokéfaction et du raff…`, `Produits chimiques`, `Produits pharmaceutiques de base et p…`, `Produits en caoutchouc et en plastique`, `Autres produits minéraux non métalliq…`, `Produits métallurgies`, `Produits métalliques, à l’exclusion d…`, `Produits informatiques, électroniques…`, `Equipements électriques`, `Machines et équipements n.c.a.`, `véhicules automobiles, remorques et s…`, `Autres matériels de transport`, `Meubles`, `Autres industries manufacturés`
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Indice des prix à la production indus… |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -39,6 +42,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 5 non-empty rows
+
+header row: 0 · data rows: 4 · year columns: none
+- `L'indicateur` (4): `Définition`, `Périodicité`, `Unité`, `Source`
+- `Indice des prix à la production industrielle, énergétique et minière (IPP) (Base 100 : 2010)` (4): `Pour plus d'information consulter la …`, `Annuelle`, `INDICE`, `HAUT COMMISSARIAT AU PLAN (DS)`
 
 | # | A | B |
 |---|---|---|

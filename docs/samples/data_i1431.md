@@ -13,6 +13,8 @@ sheets: `Data`
 
 #### Sheet `Data` — 3 non-empty rows
 
+header row: 1 · data rows: 1 · year columns: 2020 … 2007 (14)
+
 | # | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Impôts sur les produits nets des subv… |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -28,6 +30,10 @@ sheets: `Data`
 sheets: `Metadata`
 
 #### Sheet `Metadata` — 6 non-empty rows
+
+header row: 0 · data rows: 5 · year columns: none
+- `L'indicateur` (5): `Définition`, `Périodicité`, `Unité`, `Source`, `Observation`
+- `Impôts sur les produits nets des subventions aux prix courants (Annuelle Base 2007)` (5): `Pour plus d'information consulter la …`, `Annuelle`, `MILLIONS DE DH`, `HAUT COMMISSARIAT AU PLAN (DIRECTION …`, `comptes nationaux base 2007`
 
 | # | A | B |
 |---|---|---|
