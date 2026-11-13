@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>HCP Charts</title>
+<style>
+  :root { --bg:#fff; --fg:#1b1b1b; --muted:#5f6368; --line:#e3e3e3; --accent:#0b5394; --ok:#1e7e34; --warn:#a36b00; --bad:#b3261e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#ececec; --muted:#a0a0a0; --line:#2c2c2c; --accent:#6fa8dc; --ok:#7bc47f; --warn:#e0b252; --bad:#f28b82; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 28px; }
+  a.btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:10px 18px; border-radius:8px; font-weight:600; }
+  ol { padding-left: 20px; } li { margin: 6px 0; }
+  code { background: color-mix(in srgb, var(--fg) 8%, transparent); padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+  h2 { font-size: 17px; margin: 36px 0 10px; }
+  table { width:100%; border-collapse: collapse; font-size: 13px; }
+  td, th { text-align:left; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .ok { color: var(--ok); } .warn { color: var(--warn); } .bad { color: var(--bad); } .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>HCP Charts</h1>
+  <p class="sub">Complément PowerPoint : graphiques natifs à partir des statistiques du HCP (data.gov.ma), adaptés au thème de votre présentation.</p>
+
+  <p><a class="btn" href="manifest.xml" download="hcp-charts-manifest.xml">Télécharger le manifeste</a></p>
+
+  <h2>Installer dans PowerPoint</h2>
+  <ol>
+    <li>Téléchargez le manifeste ci-dessus.</li>
+    <li>PowerPoint (web ou Microsoft 365) → <b>Insertion</b> → <b>Compléments</b> → <b>Mes compléments</b> → <b>Charger mon complément</b> → choisissez le fichier.</li>
+    <li>Le bouton <b>HCP Charts</b> apparaît dans l'onglet Insertion.</li>
+  </ol>
+  <p class="muted">Pour toute une organisation : Centre d'administration Microsoft 365 → Applications intégrées → Charger des applications personnalisées → même fichier.</p>
+
+  <h2>Données disponibles</h2>
+  <p id="data-meta" class="muted">Chargement…</p>
+  <table><thead><tr><th>Indicateur</th><th>Statut</th><th>Années</th></tr></thead><tbody id="data-rows"></tbody></table>
+</main>
+<script>
+  fetch("data/status.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : Promise.reject()).then(s => {
+    const meta = document.getElementById("data-meta");
+    meta.textContent = s.generatedAt
+      ? `${s.available}/${s.total} indicateurs · actualisé le ${new Date(s.generatedAt).toLocaleString("fr-FR")}`
+      : "Aucune actualisation encore effectuée.";
+    const tb = document.getElementById("data-rows");
+    for (const i of s.indicators) {
+      const tr = document.createElement("tr");
+      const status = i.ok ? (i.stale ? ["warn", "ancienne copie"] : ["ok", "disponible"]) : (i.pendingReview ? ["warn", "à valider"] : i.mapped ? ["bad", "erreur"] : ["muted", "non relié"]);
+      [i.label, null, i.years || "—"].forEach((v, k) => {
+        const td = document.createElement("td");
+        if (k === 1) { td.className = status[0]; td.textContent = status[1]; } else td.textContent = v;
+        tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    }
+  }).catch(() => { document.getElementById("data-meta").textContent = "État des données indisponible."; });
+</script>
+</body>
+</html>

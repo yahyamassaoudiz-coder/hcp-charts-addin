@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HCP Charts — Statistiques du Maroc</title>
+
+  <!-- Office.js -->
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./taskpane.css"/>
+</head>
+<body>
+  <div id="app" class="app" role="application" aria-label="Panneau de filtres HCP Charts">
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- HEADER                                      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <header class="app-header">
+      <div class="app-header__logo">
+        <div class="app-header__icon">📊</div>
+        <div class="app-header__text">
+          <h1 class="app-header__title">HCP Charts</h1>
+          <p class="app-header__subtitle">Statistiques du Maroc</p>
+        </div>
+      </div>
+      <button id="btn-refresh" class="btn-icon" title="Actualiser les données" aria-label="Actualiser les données">
+        <span class="icon-refresh">⟳</span>
+      </button>
+    </header>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- WELCOME SCREEN                              -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="welcome-screen" class="welcome-screen">
+      <div class="welcome-screen__icon">🇲🇦</div>
+      <h2 class="welcome-screen__title">Bienvenue dans HCP Charts</h2>
+      <p class="welcome-screen__desc">
+        Sélectionnez un ou plusieurs indicateurs pour créer des
+        graphiques à partir des données officielles du Haut-Commissariat au Plan.
+      </p>
+      <p class="welcome-screen__hint">
+        💡 Commencez par choisir un indicateur ci-dessous.
+      </p>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- FILTERS PANEL                               -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="filters-panel" class="filters-panel">
+
+      <!-- Region Filter -->
+      <div class="filter-group" id="filter-region">
+        <label class="filter-label" for="select-region">
+          <span class="filter-label__icon">📍</span> Région
+        </label>
+        <select id="select-region" class="filter-select" aria-label="Sélecteur de région">
+          <option value="">Toutes les régions</option>
+        </select>
+      </div>
+
+      <!-- City Filter -->
+      <div class="filter-group" id="filter-city">
+        <label class="filter-label" for="select-city">
+          <span class="filter-label__icon">🏙️</span> Province / Ville
+        </label>
+        <select id="select-city" class="filter-select" disabled aria-label="Sélecteur de province">
+          <option value="">Sélectionnez d\'abord une région</option>
+        </select>
+      </div>
+
+      <!-- Indicators Filter -->
+      <div class="filter-group filter-group--large" id="filter-indicators">
+        <label class="filter-label">
+          <span class="filter-label__icon">📈</span>
+          Indicateurs (KPI)
+          <span id="indicator-count" class="filter-badge" data-count="0">0</span>
+        </label>
+
+        <div class="filter-search">
+          <input type="text" id="input-indicator-search" class="filter-search__input"
+                 placeholder="Rechercher un indicateur..." aria-label="Rechercher un indicateur"/>
+          <button id="btn-clear-search" class="filter-search__clear" title="Effacer" aria-label="Effacer">✕</button>
+        </div>
+
+        <div class="filter-actions">
+          <button id="btn-select-all" class="btn-text" type="button">Tout sélectionner</button>
+          <button id="btn-deselect-all" class="btn-text" type="button">Tout désélectionner</button>
+        </div>
+
+        <div id="selected-tags" class="selected-tags" aria-live="polite"></div>
+
+        <div id="indicator-list" class="indicator-list" role="listbox" aria-label="Liste des indicateurs">
+        </div>
+
+        <div id="max-warning" class="filter-warning" role="alert" style="display:none;">
+          ⚠️ Sélectionner plus de 8 indicateurs peut produire un graphique illisible.
+        </div>
+      </div>
+
+      <!-- Year Range Filter -->
+      <div class="filter-group" id="filter-years">
+        <label class="filter-label">
+          <span class="filter-label__icon">📅</span> Période
+        </label>
+        <div class="filter-year-range">
+          <div class="filter-year-input">
+            <label for="input-start-year" class="filter-year-label">Début</label>
+            <input type="number" id="input-start-year" class="filter-input"
+                   min="1960" max="2025" value="2015" aria-label="Année de début"/>
+          </div>
+          <span class="filter-year-separator">—</span>
+          <div class="filter-year-input">
+            <label for="input-end-year" class="filter-year-label">Fin</label>
+            <input type="number" id="input-end-year" class="filter-input"
+                   min="1960" max="2025" value="2024" aria-label="Année de fin"/>
+          </div>
+        </div>
+        <div id="year-error" class="filter-error" role="alert" style="display:none;"></div>
+      </div>
+
+      <!-- Chart Type Selector -->
+      <div class="filter-group" id="filter-chart-type">
+        <label class="filter-label">
+          <span class="filter-label__icon">🎨</span> Type de graphique
+        </label>
+
+        <div class="chart-type-auto">
+          <label class="toggle-label">
+            <input type="checkbox" id="toggle-auto-chart" checked/>
+            <span class="toggle-slider"></span>
+            <span class="toggle-text">Automatique (recommandé)</span>
+          </label>
+        </div>
+
+        <div id="suggested-chart" class="suggested-chart" style="display:none;">
+          <span class="suggested-chart__label">Recommandé :</span>
+          <span id="suggested-chart-name" class="suggested-chart__name"></span>
+        </div>
+
+        <div id="chart-type-grid" class="chart-type-grid" style="display:none;"
+             role="radiogroup" aria-label="Grille de sélection du type de graphique">
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- ACTION BUTTONS                              -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="action-bar">
+      <button id="btn-insert" class="btn-primary" disabled aria-label="Insérer le graphique">
+        <span class="btn-primary__icon">📊</span>
+        <span class="btn-primary__text">Insérer le graphique</span>
+      </button>
+      <button id="btn-reset" class="btn-secondary" aria-label="Réinitialiser les filtres">
+        Réinitialiser
+      </button>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- LOADING OVERLAY                             -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="loading-overlay" class="loading-overlay" style="display:none;" role="status" aria-label="Chargement en cours">
+      <div class="loading-spinner"></div>
+      <div class="loading-steps">
+        <div class="loading-step" data-step="1">
+          <span class="loading-step__icon">⏳</span>
+          <span class="loading-step__text">Connexion à data.gov.ma</span>
+        </div>
+        <div class="loading-step" data-step="2">
+          <span class="loading-step__icon">⏳</span>
+          <span class="loading-step__text">Récupération des données</span>
+        </div>
+        <div class="loading-step" data-step="3">
+          <span class="loading-step__icon">⏳</span>
+          <span class="loading-step__text">Normalisation</span>
+        </div>
+        <div class="loading-step" data-step="4">
+          <span class="loading-step__icon">⏳</span>
+          <span class="loading-step__text">Construction du graphique</span>
+        </div>
+        <div class="loading-step" data-step="5">
+          <span class="loading-step__icon">⏳</span>
+          <span class="loading-step__text">Insertion dans PowerPoint</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- ERROR BANNER                                -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="error-banner" class="error-banner" style="display:none;" role="alert">
+      <div class="error-banner__content">
+        <span class="error-banner__icon">⚠️</span>
+        <span id="error-message" class="error-banner__text"></span>
+      </div>
+      <div class="error-banner__actions">
+        <button id="btn-retry" class="btn-text">Réessayer</button>
+        <button id="btn-dismiss-error" class="btn-text">Fermer</button>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SUCCESS TOAST                               -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="success-toast" class="success-toast" style="display:none;" role="status">
+      <span class="success-toast__icon">✅</span>
+      <span class="success-toast__text">Graphique inséré avec succès !</span>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- FOOTER                                      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <footer class="app-footer">
+      <span class="app-footer__text">Données : data.gov.ma — HCP</span>
+      <span class="app-footer__version">v1.2.0</span>
+    </footer>
+
+  </div>
+
+  <!-- Main Script -->
+  <script type="module" src="./taskpane.js"></script>
+</body>
+</html>

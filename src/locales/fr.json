@@ -1,0 +1,28 @@
+{
+  "locale": "fr-FR",
+  "direction": "ltr",
+  "app": {
+    "title": "HCP Charts",
+    "subtitle": "Statistiques du Maroc"
+  },
+  "months": [
+    "Janvier",
+    "Février",
+    "Mars",
+    "Avril",
+    "Mai",
+    "Juin",
+    "Juillet",
+    "Août",
+    "Septembre",
+    "Octobre",
+    "Novembre",
+    "Décembre"
+  ],
+  "numberFormat": {
+    "decimal": ",",
+    "thousands": " ",
+    "currency": "MAD"
+  },
+  "dateFormat": "DD/MM/YYYY"
+}

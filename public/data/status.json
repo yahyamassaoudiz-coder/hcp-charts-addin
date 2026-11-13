@@ -1,0 +1,239 @@
+{
+  "generatedAt": null,
+  "total": 29,
+  "available": 0,
+  "indicators": [
+    {
+      "id": "taux_chomage",
+      "label": "Taux de chômage",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "taux_emploi",
+      "label": "Taux d'emploi",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "population_active",
+      "label": "Population active",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "chomage_urbain",
+      "label": "Chômage urbain",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "chomage_rural",
+      "label": "Chômage rural",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "chomage_jeunes",
+      "label": "Chômage des jeunes 15-24",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "population_totale",
+      "label": "Population totale",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "natalite",
+      "label": "Taux de natalité",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "mortalite",
+      "label": "Taux de mortalité",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "esperance_vie",
+      "label": "Espérance de vie",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "urbanisation",
+      "label": "Taux d'urbanisation",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "pib",
+      "label": "PIB (Mrd MAD)",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "croissance_pib",
+      "label": "Croissance PIB",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "pib_habitant",
+      "label": "PIB par habitant",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "investissement_pib",
+      "label": "Investissement / PIB",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "ipc",
+      "label": "IPC (base 100)",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "inflation",
+      "label": "Taux d'inflation",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "inflation_alimentaire",
+      "label": "Inflation alimentaire",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "scolarisation_primaire",
+      "label": "Scolarisation primaire",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "abandon_scolaire",
+      "label": "Abandon scolaire",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "medecins",
+      "label": "Médecins / 10 000 hab.",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "couverture_medicale",
+      "label": "Couverture médicale",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "mortalite_infantile",
+      "label": "Mortalité infantile",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "production_cerealiere",
+      "label": "Production céréalière",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "exportations_agricoles",
+      "label": "Exportations agricoles",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "indice_production_industrielle",
+      "label": "Indice production industrielle",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "exportations",
+      "label": "Exportations totales",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "importations",
+      "label": "Importations totales",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    },
+    {
+      "id": "ide",
+      "label": "IDE reçus",
+      "mapped": false,
+      "ok": false,
+      "stale": false,
+      "years": ""
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+# HCP Charts — test, refresh data from data.gov.ma, deploy to GitHub Pages.
+# Runs on every push to main, every night, and on demand (Actions → Run workflow).
+# One-time setup: Settings → Pages → Source: "GitHub Actions".
+name: Build & deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 2 * * *"        # 02:17 UTC nightly data refresh
+  workflow_dispatch:
+    inputs:
+      remap:
+        description: "Re-run indicator discovery (map-indicators) before fetching"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write     # commit refreshed data back to main
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Unit & integration tests
+        run: npm test
+
+      - name: Discover HCP datasets (map-indicators)
+        id: map
+        if: github.event_name != 'workflow_dispatch' || inputs.remap
+        continue-on-error: true
+        run: npm run map-indicators
+
+      - name: Fetch data snapshots
+        id: snap
+        continue-on-error: true
+        run: npm run snapshots
+
+      - name: Report data.gov.ma problems
+        if: steps.map.outcome == 'failure' || steps.snap.outcome == 'failure'
+        run: |
+          {
+            echo "## ⚠️ data.gov.ma injoignable ou en erreur"
+            echo ""
+            echo "Le site est déployé avec la **dernière copie des données** déjà présente dans le dépôt."
+            echo "Si cela persiste, data.gov.ma bloque peut-être les serveurs GitHub (hors Maroc) — voir docs/DEPLOYMENT.md."
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::warning::data.gov.ma refresh failed — deploying last committed snapshot"
+
+      - name: Commit refreshed mapping & data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898297+github-actions[bot]@users.noreply.github.com"
+          git add -A src/constants/indicatorMap.json src/constants/snapshotIndex.json \
+                    src/constants/hcpCatalog.json docs/MAPPING_REPORT.md public/data 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: refresh from data.gov.ma [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build add-in (static data mode)
+        run: npm run build:pages
+
+      - name: Production manifest
+        run: |
+          npm run deploy:prep "${{ steps.pages.outputs.base_url }}"
+          cp manifest.prod.xml dist/manifest.xml
+          echo "### Manifeste : ${{ steps.pages.outputs.base_url }}/manifest.xml" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

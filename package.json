@@ -1,0 +1,48 @@
+{
+  "name": "hcp-charts-addin",
+  "version": "1.2.0",
+  "description": "PowerPoint task-pane add-in for HCP Moroccan statistics with native OOXML charts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "certs": "office-addin-dev-certs install",
+    "sideload": "office-addin-debugging start manifest.xml desktop --no-debug",
+    "sideload:web": "office-addin-debugging start manifest.xml web --no-debug",
+    "stop": "office-addin-debugging stop manifest.xml",
+    "validate": "office-addin-manifest validate manifest.xml",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "map-indicators": "node scripts/map-indicators.js",
+    "deploy:prep": "node scripts/replace-prod-urls.js",
+    "snapshots": "node scripts/build-snapshots.js",
+    "data:refresh": "node scripts/map-indicators.js && node scripts/build-snapshots.js",
+    "build:pages": "VITE_DATA_SOURCE=static vite build"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0",
+    "papaparse": "^5.4.1",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "vite": "^6.4.0",
+    "vitest": "^3.2.0",
+    "office-addin-debugging": "^5.1.6",
+    "office-addin-manifest": "^1.13.6",
+    "office-addin-dev-certs": "^1.13.5"
+  },
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "keywords": [
+    "powerpoint",
+    "office-addin",
+    "hcp",
+    "morocco",
+    "data-visualization",
+    "ckan"
+  ],
+  "license": "MIT",
+  "private": true
+}

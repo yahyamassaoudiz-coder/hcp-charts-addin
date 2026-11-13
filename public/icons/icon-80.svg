@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <rect width="80" height="80" rx="10" fill="#0B5394"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Arial, sans-serif" font-weight="bold"
+        font-size="26px" fill="white">HCP</text>
+  <rect x="12.0" y="52.0" width="12.0" height="20.0"
+        rx="1" fill="#4FC3F7" opacity="0.9"/>
+  <rect x="28.0" y="44.0" width="12.0" height="28.0"
+        rx="1" fill="#81D4FA" opacity="0.9"/>
+  <rect x="44.0" y="36.0" width="12.0" height="36.0"
+        rx="1" fill="#B3E5FC" opacity="0.9"/>
+  <rect x="60.0" y="28.0" width="12.0" height="44.0"
+        rx="1" fill="#E1F5FE" opacity="0.9"/>
+</svg>
