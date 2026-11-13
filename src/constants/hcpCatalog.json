@@ -1,0 +1,1724 @@
+[
+  {
+    "name": "data_i4167",
+    "title": "Indice des prix à la production  (Mensuel) Base 100 2018",
+    "modified": "2026-10-30T10:55:19.190842",
+    "resources": [
+      {
+        "id": "2e2c10c2-f1a7-456b-b18c-08e87767b146",
+        "name": "I_I4167_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e557e593-8a89-49b6-b8c4-10e0b4157727/resource/2e2c10c2-f1a7-456b-b18c-08e87767b146/download/i_i4167_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "2cfe93d5-8fc3-4889-8d16-3d8c2f6e51d2",
+        "name": "I_I4167_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e557e593-8a89-49b6-b8c4-10e0b4157727/resource/2cfe93d5-8fc3-4889-8d16-3d8c2f6e51d2/download/i_i4167_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_imt_txemp_02",
+    "title": "Taux d'emploi selon les Provinces/Préfectures et le Milieu",
+    "modified": "2026-10-30T10:55:41.052805",
+    "resources": [
+      {
+        "id": "6b4f1e7a-2f4a-42a5-b8ec-14c378534f5d",
+        "name": "I_IMT_TXEMP_02_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/ed1fd781-455c-4560-99e4-6fc52efe1d86/resource/6b4f1e7a-2f4a-42a5-b8ec-14c378534f5d/download/i_imt_txemp_02_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "0a7757a7-e36e-4cb0-ac69-549886ddbb60",
+        "name": "I_IMT_TXEMP_02_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/ed1fd781-455c-4560-99e4-6fc52efe1d86/resource/0a7757a7-e36e-4cb0-ac69-549886ddbb60/download/i_imt_txemp_02_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_imt_txch_02",
+    "title": "Taux de chômage selon les Provinces/Préfectures et le Milieu",
+    "modified": "2026-10-30T10:55:39.653580",
+    "resources": [
+      {
+        "id": "8ee85745-bf8c-4f50-a094-04c6af0afe4a",
+        "name": "I_IMT_TXCH_02_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/a5f57c4c-f82c-4e0b-afc4-1e09f5de98a4/resource/8ee85745-bf8c-4f50-a094-04c6af0afe4a/download/i_imt_txch_02_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "8146c6d7-46ce-44f4-aade-91e0f044ab49",
+        "name": "I_IMT_TXCH_02_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/a5f57c4c-f82c-4e0b-afc4-1e09f5de98a4/resource/8146c6d7-46ce-44f4-aade-91e0f044ab49/download/i_imt_txch_02_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_imt_txact_02",
+    "title": "Taux d'activité selon les Provinces/Préfectures et le Milieu",
+    "modified": "2026-10-30T10:55:39.154028",
+    "resources": [
+      {
+        "id": "1f7a4d39-2545-4082-b36c-1a9e9a803791",
+        "name": "I_IMT_TXACT_02_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/454e0139-311c-41f8-becf-6ce398a3169e/resource/1f7a4d39-2545-4082-b36c-1a9e9a803791/download/i_imt_txact_02_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "c170d3b8-f956-4863-84dd-60762cd3b854",
+        "name": "I_IMT_TXACT_02_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/454e0139-311c-41f8-becf-6ce398a3169e/resource/c170d3b8-f956-4863-84dd-60762cd3b854/download/i_imt_txact_02_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i45",
+    "title": "Part de la population active en chômage",
+    "modified": "2026-10-30T10:55:38.645057",
+    "resources": [
+      {
+        "id": "00baff6b-3db4-4415-be3b-6997d0f40db1",
+        "name": "I_I45_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/4a34944f-545f-44bb-afb6-565018ba33a9/resource/00baff6b-3db4-4415-be3b-6997d0f40db1/download/i_i45_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "7bc27f7c-f213-411b-aa30-054b2f49ae96",
+        "name": "I_I45_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/4a34944f-545f-44bb-afb6-565018ba33a9/resource/7bc27f7c-f213-411b-aa30-054b2f49ae96/download/i_i45_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4273",
+    "title": "Valeurs ajoutées à prix courants (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:34.751129",
+    "resources": [
+      {
+        "id": "03c94f48-d698-4ee8-89cb-724c1b34b554",
+        "name": "I_I4273_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/89e501e7-8205-49ea-94e1-915be0105b29/resource/03c94f48-d698-4ee8-89cb-724c1b34b554/download/i_i4273_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "cb1253af-f144-4566-8935-6070cb9f679c",
+        "name": "I_I4273_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/89e501e7-8205-49ea-94e1-915be0105b29/resource/cb1253af-f144-4566-8935-6070cb9f679c/download/i_i4273_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4270",
+    "title": "Importations à prix courants (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:32.862074",
+    "resources": [
+      {
+        "id": "097ceda6-00a7-4e2c-a11f-27ae860b750e",
+        "name": "I_I4270_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/006b4bee-1baf-4815-a77c-f78beb43e649/resource/097ceda6-00a7-4e2c-a11f-27ae860b750e/download/i_i4270_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "75c8a6db-c6af-4a88-870e-b89f1db8f00d",
+        "name": "I_I4270_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/006b4bee-1baf-4815-a77c-f78beb43e649/resource/75c8a6db-c6af-4a88-870e-b89f1db8f00d/download/i_i4270_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4269",
+    "title": "Importations en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:31.530775",
+    "resources": [
+      {
+        "id": "5817376f-7638-49aa-addc-04bcca1ad23a",
+        "name": "I_I4269_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/3905cb42-56f0-4b06-99b1-f88430d2ec97/resource/5817376f-7638-49aa-addc-04bcca1ad23a/download/i_i4269_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "a027a422-ba9e-4263-b80e-418bcd04c472",
+        "name": "I_I4269_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/3905cb42-56f0-4b06-99b1-f88430d2ec97/resource/a027a422-ba9e-4263-b80e-418bcd04c472/download/i_i4269_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4266",
+    "title": "Exportations à prix courants (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:29.367800",
+    "resources": [
+      {
+        "id": "8608343a-21e0-4aec-9e92-f8c20a82b5eb",
+        "name": "I_I4266_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/3140e6db-b238-47c0-81a7-19cfe3a7a13b/resource/8608343a-21e0-4aec-9e92-f8c20a82b5eb/download/i_i4266_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "3f130f46-c11c-4d4e-9df2-ff4953c3201c",
+        "name": "I_I4266_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/3140e6db-b238-47c0-81a7-19cfe3a7a13b/resource/3f130f46-c11c-4d4e-9df2-ff4953c3201c/download/i_i4266_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4265",
+    "title": "Exportations en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:28.243258",
+    "resources": [
+      {
+        "id": "8e7026a1-f4a7-4ab5-8711-491cee71c039",
+        "name": "I_I4265_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/cffa722b-1ea6-43ee-9ecb-bd9652a9a570/resource/8e7026a1-f4a7-4ab5-8711-491cee71c039/download/i_i4265_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "a4b32886-b73a-4d9a-b40a-d037c498497b",
+        "name": "I_I4265_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/cffa722b-1ea6-43ee-9ecb-bd9652a9a570/resource/a4b32886-b73a-4d9a-b40a-d037c498497b/download/i_i4265_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4250",
+    "title": "Taux d'activité selon les tranches d'âge et le Milieu (Trimestriel)",
+    "modified": "2026-10-30T10:55:24.352342",
+    "resources": [
+      {
+        "id": "69983437-6959-400b-a723-d58c46011875",
+        "name": "I_I4250_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/dc406df8-c5be-4a61-96de-328d66afc51f/resource/69983437-6959-400b-a723-d58c46011875/download/i_i4250_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "ef65d461-1b78-47f2-993d-bdb3287fa4b0",
+        "name": "I_I4250_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/dc406df8-c5be-4a61-96de-328d66afc51f/resource/ef65d461-1b78-47f2-993d-bdb3287fa4b0/download/i_i4250_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4249",
+    "title": "Taux de chômage selon les tranches d'âge et le milieu (Trimestriel)",
+    "modified": "2026-10-30T10:55:23.837569",
+    "resources": [
+      {
+        "id": "07162000-1293-447c-8a64-5849f2119595",
+        "name": "I_I4249_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/448404a3-de56-461f-9e32-14c6b5ad7202/resource/07162000-1293-447c-8a64-5849f2119595/download/i_i4249_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "9605c5f1-7ae9-4539-9647-ba2d68a4e0f5",
+        "name": "I_I4249_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/448404a3-de56-461f-9e32-14c6b5ad7202/resource/9605c5f1-7ae9-4539-9647-ba2d68a4e0f5/download/i_i4249_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4248",
+    "title": "Taux de chômage selon le diplôme et le sexe (Trimestriel)",
+    "modified": "2026-10-30T10:55:23.287583",
+    "resources": [
+      {
+        "id": "cd68da2a-0114-4e24-9438-4101dc232479",
+        "name": "I_I4248_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/d59cd96c-887d-4c3e-9397-550412087755/resource/cd68da2a-0114-4e24-9438-4101dc232479/download/i_i4248_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "71f7529c-8553-4bf3-b3e1-5641adf2466f",
+        "name": "I_I4248_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/d59cd96c-887d-4c3e-9397-550412087755/resource/71f7529c-8553-4bf3-b3e1-5641adf2466f/download/i_i4248_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4247",
+    "title": "Taux de chômage selon le diplôme et le milieu (Trimestriel)",
+    "modified": "2026-10-30T10:55:22.610035",
+    "resources": [
+      {
+        "id": "bb0ddda6-1c76-4666-97f0-9034944be628",
+        "name": "I_I4247_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/90b9befd-27b3-4c9c-bd28-598f6db41ecf/resource/bb0ddda6-1c76-4666-97f0-9034944be628/download/i_i4247_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "096335c9-e066-4d31-8116-6a44e372be66",
+        "name": "I_I4247_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/90b9befd-27b3-4c9c-bd28-598f6db41ecf/resource/096335c9-e066-4d31-8116-6a44e372be66/download/i_i4247_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4245",
+    "title": "Type de chômage (Trimestriel)",
+    "modified": "2026-10-30T10:55:21.589168",
+    "resources": [
+      {
+        "id": "8b6943af-c2e8-459d-9a78-6c7f46d67d8d",
+        "name": "I_I4245_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/faf5d4cc-bad9-48b2-8351-a96aca6102a5/resource/8b6943af-c2e8-459d-9a78-6c7f46d67d8d/download/i_i4245_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "16b03c19-5ad9-4343-8186-a49f3beb4b50",
+        "name": "I_I4245_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/faf5d4cc-bad9-48b2-8351-a96aca6102a5/resource/16b03c19-5ad9-4343-8186-a49f3beb4b50/download/i_i4245_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4244",
+    "title": "Taux d'emploi par secteur (Trimestriel)",
+    "modified": "2026-10-30T10:55:21.208590",
+    "resources": [
+      {
+        "id": "82cdec20-08b9-435a-85ba-01291b05fd3a",
+        "name": "I_I4244_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/219a5242-302f-4705-976c-e8ca0dd549f5/resource/82cdec20-08b9-435a-85ba-01291b05fd3a/download/i_i4244_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "79630163-e1f8-4375-81b7-4e7df185d92b",
+        "name": "I_I4244_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/219a5242-302f-4705-976c-e8ca0dd549f5/resource/79630163-e1f8-4375-81b7-4e7df185d92b/download/i_i4244_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4243",
+    "title": "Taux d'emploi par branche d'activité de la population active occupée (Trimestriel)",
+    "modified": "2026-10-30T10:55:20.476618",
+    "resources": [
+      {
+        "id": "19f37e5e-f051-4d37-98ad-1abf41c0e927",
+        "name": "I_I4243_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/d6e6ef89-1a3f-4504-baa5-6009bda9b75c/resource/19f37e5e-f051-4d37-98ad-1abf41c0e927/download/i_i4243_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "a49d2b92-6552-4495-98bf-0a38f327fb00",
+        "name": "I_I4243_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/d6e6ef89-1a3f-4504-baa5-6009bda9b75c/resource/a49d2b92-6552-4495-98bf-0a38f327fb00/download/i_i4243_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4242",
+    "title": "Durée de chômage par milieu (Trimestriel)",
+    "modified": "2026-10-30T10:55:20.058915",
+    "resources": [
+      {
+        "id": "e5cbf02b-5e0e-426c-a440-590e39afde29",
+        "name": "I_I4242_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e46a9ba0-302b-4f0d-8880-8a6ccb2f1b6b/resource/e5cbf02b-5e0e-426c-a440-590e39afde29/download/i_i4242_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "fba8a819-8d16-4e5f-a8c3-f56e3bf5ebd0",
+        "name": "I_I4242_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e46a9ba0-302b-4f0d-8880-8a6ccb2f1b6b/resource/fba8a819-8d16-4e5f-a8c3-f56e3bf5ebd0/download/i_i4242_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4241",
+    "title": "Taux d'activité selon les tranches d'âge et le Milieu",
+    "modified": "2026-10-30T10:55:19.596846",
+    "resources": [
+      {
+        "id": "e923a111-a661-4cc2-8f05-edd804c2429b",
+        "name": "I_I4241_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/50d7e805-b0ba-4318-8b45-a809cd6d97ea/resource/e923a111-a661-4cc2-8f05-edd804c2429b/download/i_i4241_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "76cc4f59-300f-484e-8cb9-86d240770148",
+        "name": "I_I4241_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/50d7e805-b0ba-4318-8b45-a809cd6d97ea/resource/76cc4f59-300f-484e-8cb9-86d240770148/download/i_i4241_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4002",
+    "title": "Taux de chômage selon le Milieu, les diplômes",
+    "modified": "2026-10-30T10:55:11.735899",
+    "resources": [
+      {
+        "id": "e717bf2a-7e78-4184-8a8c-34f99264b723",
+        "name": "I_I4002_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/6c3b56f5-e49a-4b03-87c7-ae929b3081a7/resource/e717bf2a-7e78-4184-8a8c-34f99264b723/download/i_i4002_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "b1047b76-b975-481a-b9b5-cd4163c61b6b",
+        "name": "I_I4002_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/6c3b56f5-e49a-4b03-87c7-ae929b3081a7/resource/b1047b76-b975-481a-b9b5-cd4163c61b6b/download/i_i4002_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i40",
+    "title": "Taux net d'activité",
+    "modified": "2026-10-30T10:55:10.681909",
+    "resources": [
+      {
+        "id": "fb3a9a12-369d-49ba-99d8-2c2570555f68",
+        "name": "I_I40_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/998950c3-8ec8-4bc0-b307-700c1dd1a258/resource/fb3a9a12-369d-49ba-99d8-2c2570555f68/download/i_i40_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "a0d62a92-1e19-4263-9d9f-55270d3a1c6b",
+        "name": "I_I40_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/998950c3-8ec8-4bc0-b307-700c1dd1a258/resource/a0d62a92-1e19-4263-9d9f-55270d3a1c6b/download/i_i40_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3211",
+    "title": "Produit intérieur brut (approche par le revenu) (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:55:08.048647",
+    "resources": [
+      {
+        "id": "9fb2dea0-0ee6-4799-88e2-03bdb0b04abf",
+        "name": "I_I3211_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/90429e58-bfb9-4776-923f-1e12ad3a3106/resource/9fb2dea0-0ee6-4799-88e2-03bdb0b04abf/download/i_i3211_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "23ef8d32-e741-4163-ae17-3eb0afaab6c3",
+        "name": "I_I3211_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/90429e58-bfb9-4776-923f-1e12ad3a3106/resource/23ef8d32-e741-4163-ae17-3eb0afaab6c3/download/i_i3211_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3162",
+    "title": "Valeur ajoutée aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:55:06.155040",
+    "resources": [
+      {
+        "id": "8fe0a0b7-c852-4f29-ae57-ef7dca6841d1",
+        "name": "I_I3162_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/d310430d-c2df-44d0-a79b-31d8ef5e74b0/resource/8fe0a0b7-c852-4f29-ae57-ef7dca6841d1/download/i_i3162_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "56bb5842-5922-4c16-862e-5dd473d7128b",
+        "name": "I_I3162_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/d310430d-c2df-44d0-a79b-31d8ef5e74b0/resource/56bb5842-5922-4c16-862e-5dd473d7128b/download/i_i3162_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3161",
+    "title": "Produit intérieur brut aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:55:05.676814",
+    "resources": [
+      {
+        "id": "8e7ea30b-2ee0-4835-88c9-77e3f35f022e",
+        "name": "I_I3161_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/3af5d63a-9a30-448f-8d94-fb59e94b1bc8/resource/8e7ea30b-2ee0-4835-88c9-77e3f35f022e/download/i_i3161_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "b15eb2df-2c7e-4d2f-be9c-202c2a0942d4",
+        "name": "I_I3161_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/3af5d63a-9a30-448f-8d94-fb59e94b1bc8/resource/b15eb2df-2c7e-4d2f-be9c-202c2a0942d4/download/i_i3161_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3142",
+    "title": "Valeur Ajoutée aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:55:05.263953",
+    "resources": [
+      {
+        "id": "3a6e4c62-0510-4bca-90e7-030c928d607c",
+        "name": "I_I3142_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/bc8e1d0e-8171-4f04-93f3-7d0fcfbd21be/resource/3a6e4c62-0510-4bca-90e7-030c928d607c/download/i_i3142_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "15c816b5-3e27-4507-9896-e014c635b70f",
+        "name": "I_I3142_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/bc8e1d0e-8171-4f04-93f3-7d0fcfbd21be/resource/15c816b5-3e27-4507-9896-e014c635b70f/download/i_i3142_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2868",
+    "title": "Effectif des chômeurs",
+    "modified": "2026-10-30T10:55:04.471646",
+    "resources": [
+      {
+        "id": "9bee1481-6504-4967-8e4e-38f181a15bae",
+        "name": "I_I2868_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/bd693d65-b4e3-4d17-98ce-09fdfd5fe48d/resource/9bee1481-6504-4967-8e4e-38f181a15bae/download/i_i2868_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "6319ef8c-f7bd-4e96-aaf2-3d10002c20d9",
+        "name": "I_I2868_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/bd693d65-b4e3-4d17-98ce-09fdfd5fe48d/resource/6319ef8c-f7bd-4e96-aaf2-3d10002c20d9/download/i_i2868_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2867",
+    "title": "Effectif des actifs occupés ayant un emploi rémunéré",
+    "modified": "2026-10-30T10:55:04.073394",
+    "resources": [
+      {
+        "id": "84eb7b86-46c0-465e-826c-1e567de139fc",
+        "name": "I_I2867_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/c5aa8eed-20f2-4579-8ef0-8e59fe22af41/resource/84eb7b86-46c0-465e-826c-1e567de139fc/download/i_i2867_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "92481d3a-cc25-4d95-9bef-dc059c9fed64",
+        "name": "I_I2867_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/c5aa8eed-20f2-4579-8ef0-8e59fe22af41/resource/92481d3a-cc25-4d95-9bef-dc059c9fed64/download/i_i2867_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2864",
+    "title": "Structure des actifs occupés selon le status professionnel",
+    "modified": "2026-10-30T10:55:02.669654",
+    "resources": [
+      {
+        "id": "5475b992-072b-491f-a25b-4c1666cc17d9",
+        "name": "I_I2864_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/ed851cbb-4aea-41c9-b8f4-3fb36c9e432e/resource/5475b992-072b-491f-a25b-4c1666cc17d9/download/i_i2864_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "324230b0-121b-44a6-afbc-edd604e3ac2d",
+        "name": "I_I2864_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/ed851cbb-4aea-41c9-b8f4-3fb36c9e432e/resource/324230b0-121b-44a6-afbc-edd604e3ac2d/download/i_i2864_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2863",
+    "title": "Structure des actifs occupés",
+    "modified": "2026-10-30T10:55:02.226583",
+    "resources": [
+      {
+        "id": "defcefa5-ee41-47a3-9d84-63aebe223023",
+        "name": "I_I2863_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/b9b840b6-42cb-4c6f-882f-f1703b5a009f/resource/defcefa5-ee41-47a3-9d84-63aebe223023/download/i_i2863_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "ae0ea0e3-ad26-4f29-af16-e58f135cd55c",
+        "name": "I_I2863_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/b9b840b6-42cb-4c6f-882f-f1703b5a009f/resource/ae0ea0e3-ad26-4f29-af16-e58f135cd55c/download/i_i2863_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2862",
+    "title": "Répartition des actifs occupés par régularité dans l'emploi",
+    "modified": "2026-10-30T10:55:01.664150",
+    "resources": [
+      {
+        "id": "27a2a711-a7bb-407f-9518-5920ee75d1f6",
+        "name": "I_I2862_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/9fe0654a-380c-4d51-9593-48034f0bce7a/resource/27a2a711-a7bb-407f-9518-5920ee75d1f6/download/i_i2862_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "0db87b8c-15e1-4262-a80f-301603132e98",
+        "name": "I_I2862_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/9fe0654a-380c-4d51-9593-48034f0bce7a/resource/0db87b8c-15e1-4262-a80f-301603132e98/download/i_i2862_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2861",
+    "title": "Répartition des actifs occupés de 15 ans et plus",
+    "modified": "2026-10-30T10:55:01.168500",
+    "resources": [
+      {
+        "id": "ed32e1ae-d971-4730-93f4-cc4ba45a8947",
+        "name": "I_I2861_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/374fb490-8b08-4900-8816-c41fa7de23ef/resource/ed32e1ae-d971-4730-93f4-cc4ba45a8947/download/i_i2861_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "1315ed12-4616-42bd-b799-97d3c54a4d96",
+        "name": "I_I2861_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/374fb490-8b08-4900-8816-c41fa7de23ef/resource/1315ed12-4616-42bd-b799-97d3c54a4d96/download/i_i2861_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2148",
+    "title": "Indice du cout de la vie (Base 100: 1972-73) (210 articles)",
+    "modified": "2026-10-30T10:55:00.735128",
+    "resources": [
+      {
+        "id": "1881ac1e-300d-41cf-a456-042614dce3d5",
+        "name": "I_I2148_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/bc62cd98-ed62-4d52-a2ff-c0e553c1938d/resource/1881ac1e-300d-41cf-a456-042614dce3d5/download/i_i2148_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "7f37432b-058b-44c7-aaed-48b0ec36775e",
+        "name": "I_I2148_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/bc62cd98-ed62-4d52-a2ff-c0e553c1938d/resource/7f37432b-058b-44c7-aaed-48b0ec36775e/download/i_i2148_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1462",
+    "title": "Taux de chômage selon le Milieu, le sexe et les régions",
+    "modified": "2026-10-30T10:54:59.451352",
+    "resources": [
+      {
+        "id": "90e82b3b-4902-44f7-92ba-581aa082ad58",
+        "name": "I_I1462_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/17745134-dee5-4027-8460-06f9457b6a8a/resource/90e82b3b-4902-44f7-92ba-581aa082ad58/download/i_i1462_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "e8f17290-d153-43c3-b0be-448dfa06d5a3",
+        "name": "I_I1462_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/17745134-dee5-4027-8460-06f9457b6a8a/resource/e8f17290-d153-43c3-b0be-448dfa06d5a3/download/i_i1462_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1444",
+    "title": "Exportations de biens et services aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:58.083039",
+    "resources": [
+      {
+        "id": "fda07911-0b85-4565-89f3-2281d660a8e5",
+        "name": "I_I1444_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/72a45a25-897a-4b6a-b2e0-ddf7b54bbb9a/resource/fda07911-0b85-4565-89f3-2281d660a8e5/download/i_i1444_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "6807e602-3f40-4f89-8207-05e3c9102d10",
+        "name": "I_I1444_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/72a45a25-897a-4b6a-b2e0-ddf7b54bbb9a/resource/6807e602-3f40-4f89-8207-05e3c9102d10/download/i_i1444_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1443",
+    "title": "Variation de stocks aux prix consants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:57.525141",
+    "resources": [
+      {
+        "id": "de57f331-0f51-47eb-b5ab-d4c827245d9b",
+        "name": "I_I1443_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/0b39454b-791c-4463-9bef-b8339f8e2c7c/resource/de57f331-0f51-47eb-b5ab-d4c827245d9b/download/i_i1443_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "dcac1ebf-2802-47fd-ac82-121ea0bfe91c",
+        "name": "I_I1443_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/0b39454b-791c-4463-9bef-b8339f8e2c7c/resource/dcac1ebf-2802-47fd-ac82-121ea0bfe91c/download/i_i1443_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1441",
+    "title": "Importations aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:56.722390",
+    "resources": [
+      {
+        "id": "3a767dd2-d6ef-4c52-9cc8-ae642300be29",
+        "name": "I_I1441_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/56ef68c2-b5ec-4aa4-ad20-95aa000d035f/resource/3a767dd2-d6ef-4c52-9cc8-ae642300be29/download/i_i1441_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "a1e1f6f0-9292-406b-aa94-a2adc02ede4d",
+        "name": "I_I1441_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/56ef68c2-b5ec-4aa4-ad20-95aa000d035f/resource/a1e1f6f0-9292-406b-aa94-a2adc02ede4d/download/i_i1441_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1439",
+    "title": "Dépenses de consommation finale des ménages aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:55.117277",
+    "resources": [
+      {
+        "id": "3fe57840-8933-4167-92d2-9c39d57e69d4",
+        "name": "I_I1439_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/1c87edef-8cb6-404c-b544-e69fab1c4623/resource/3fe57840-8933-4167-92d2-9c39d57e69d4/download/i_i1439_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "a9cf49f4-e719-439e-9b42-cbea2e2af874",
+        "name": "I_I1439_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/1c87edef-8cb6-404c-b544-e69fab1c4623/resource/a9cf49f4-e719-439e-9b42-cbea2e2af874/download/i_i1439_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1437",
+    "title": "Exportations de biens et services aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:54.421742",
+    "resources": [
+      {
+        "id": "a5d69e3a-256e-408b-9b5d-5876a07f86a9",
+        "name": "I_I1437_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/287f30a1-9104-46dd-b2ce-4d31aaa70f05/resource/a5d69e3a-256e-408b-9b5d-5876a07f86a9/download/i_i1437_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "f7aebd64-4799-47b7-a3d9-208170c1dc9e",
+        "name": "I_I1437_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/287f30a1-9104-46dd-b2ce-4d31aaa70f05/resource/f7aebd64-4799-47b7-a3d9-208170c1dc9e/download/i_i1437_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1436",
+    "title": "Variation de stocks aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:54.114708",
+    "resources": [
+      {
+        "id": "afa4102f-a6a8-4da9-a2ab-9342e941ff96",
+        "name": "I_I1436_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/b038b1f5-815b-4bbe-a1be-0bd4498b3829/resource/afa4102f-a6a8-4da9-a2ab-9342e941ff96/download/i_i1436_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "221a2e5e-dfa6-40cd-a53e-e0d8b8f799e1",
+        "name": "I_I1436_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/b038b1f5-815b-4bbe-a1be-0bd4498b3829/resource/221a2e5e-dfa6-40cd-a53e-e0d8b8f799e1/download/i_i1436_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1434",
+    "title": "Importations aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:53.347832",
+    "resources": [
+      {
+        "id": "d026d875-ddce-4783-a83c-cb500813470e",
+        "name": "I_I1434_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/7bb61846-4eec-492a-a463-5d7b7919f81c/resource/d026d875-ddce-4783-a83c-cb500813470e/download/i_i1434_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "ade869b3-8afe-4d2f-8583-43122ce89319",
+        "name": "I_I1434_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/7bb61846-4eec-492a-a463-5d7b7919f81c/resource/ade869b3-8afe-4d2f-8583-43122ce89319/download/i_i1434_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1432",
+    "title": "Dépenses de consommation finale des ménages aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:52.629004",
+    "resources": [
+      {
+        "id": "0af5da24-0847-4803-92f7-f910dca96e21",
+        "name": "I_I1432_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/07ea2aae-e0f4-4551-b28e-bdab03351f8a/resource/0af5da24-0847-4803-92f7-f910dca96e21/download/i_i1432_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "fbc7f43d-97ba-47f5-9702-811508fb6666",
+        "name": "I_I1432_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/07ea2aae-e0f4-4551-b28e-bdab03351f8a/resource/fbc7f43d-97ba-47f5-9702-811508fb6666/download/i_i1432_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1430",
+    "title": "Subventions sur les produits aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:51.631299",
+    "resources": [
+      {
+        "id": "dd6f5dd3-438a-4604-aae4-bbca019a3844",
+        "name": "I_I1430_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/6b5c15bc-26a4-4946-a45d-4bf605f09f35/resource/dd6f5dd3-438a-4604-aae4-bbca019a3844/download/i_i1430_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "86efb14b-eab5-4505-8af1-3d73076a2acf",
+        "name": "I_I1430_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/6b5c15bc-26a4-4946-a45d-4bf605f09f35/resource/86efb14b-eab5-4505-8af1-3d73076a2acf/download/i_i1430_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1429",
+    "title": "Impôts sur les produits aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:51.229165",
+    "resources": [
+      {
+        "id": "59a56232-6b32-45e7-a838-ebf525029016",
+        "name": "I_I1429_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/2d366b9f-d3ad-453a-bb5f-51348075e9b7/resource/59a56232-6b32-45e7-a838-ebf525029016/download/i_i1429_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "de78b1e3-405c-4c0c-93c5-e1e390b241b3",
+        "name": "I_I1429_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/2d366b9f-d3ad-453a-bb5f-51348075e9b7/resource/de78b1e3-405c-4c0c-93c5-e1e390b241b3/download/i_i1429_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1428",
+    "title": "Produit intérieur brut aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:50.756498",
+    "resources": [
+      {
+        "id": "dc123313-39ef-4366-9d74-0f4ac1193e00",
+        "name": "I_I1428_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/d5f1844d-9d36-4ede-ae2f-0d286018205e/resource/dc123313-39ef-4366-9d74-0f4ac1193e00/download/i_i1428_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "6cbaf49f-3643-4a99-bedc-a9ca78c25e78",
+        "name": "I_I1428_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/d5f1844d-9d36-4ede-ae2f-0d286018205e/resource/6cbaf49f-3643-4a99-bedc-a9ca78c25e78/download/i_i1428_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4272",
+    "title": "Produit intérieur brut par secteur d’activité à prix courants (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:34.182832",
+    "resources": [
+      {
+        "id": "1742b15d-957f-43cb-8fbb-0909038025e9",
+        "name": "I_I4272_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/04e1b126-a349-46a3-9ab4-9598ec7d2255/resource/1742b15d-957f-43cb-8fbb-0909038025e9/download/i_i4272_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "99415e7d-217e-4d5a-b716-c91e0cd40579",
+        "name": "I_I4272_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/04e1b126-a349-46a3-9ab4-9598ec7d2255/resource/99415e7d-217e-4d5a-b716-c91e0cd40579/download/i_i4272_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4277",
+    "title": "Revenu national brut disponible et épargne nationale brute (Trimestrielle Base 2014)",
+    "modified": "2026-10-30T10:55:36.837494",
+    "resources": [
+      {
+        "id": "16517692-66e3-4813-95c9-d1e967b01693",
+        "name": "I_I4277_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/0914e5a5-2df1-4659-adb7-d64a5742a40a/resource/16517692-66e3-4813-95c9-d1e967b01693/download/i_i4277_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "e9577e51-20e9-4649-825e-4e949819d54a",
+        "name": "I_I4277_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/0914e5a5-2df1-4659-adb7-d64a5742a40a/resource/e9577e51-20e9-4649-825e-4e949819d54a/download/i_i4277_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4275",
+    "title": "Décomposition du PIB aux prix courants (Trimestrielle Base 2014)",
+    "modified": "2026-10-30T10:55:35.731860",
+    "resources": [
+      {
+        "id": "a860a446-e6cb-4b8a-a402-4d421b74f34f",
+        "name": "I_I4275_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/204bdf15-5673-471d-afc9-0f16a080ec23/resource/a860a446-e6cb-4b8a-a402-4d421b74f34f/download/i_i4275_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "8c2d216f-2034-41b8-aa78-9298a3cf3936",
+        "name": "I_I4275_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/204bdf15-5673-471d-afc9-0f16a080ec23/resource/8c2d216f-2034-41b8-aa78-9298a3cf3936/download/i_i4275_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4262",
+    "title": "Consommations intermédiaires par secteurs d'activité à prix courants (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:26.502883",
+    "resources": [
+      {
+        "id": "0af4f358-9900-493a-a0d1-c406b74709db",
+        "name": "I_I4262_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/80af0fdd-7d8b-4116-9f42-13e2aae264f5/resource/0af4f358-9900-493a-a0d1-c406b74709db/download/i_i4262_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "18310f8f-b339-4188-a122-e4d5c7184715",
+        "name": "I_I4262_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/80af0fdd-7d8b-4116-9f42-13e2aae264f5/resource/18310f8f-b339-4188-a122-e4d5c7184715/download/i_i4262_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4261",
+    "title": "Consommations intermédiaires par secteurs d'activité en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:26.096267",
+    "resources": [
+      {
+        "id": "b4404fa9-44ff-4a28-9ff6-e08cd55c410b",
+        "name": "I_I4261_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/567b009b-9968-44cd-93cc-38906803ef96/resource/b4404fa9-44ff-4a28-9ff6-e08cd55c410b/download/i_i4261_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "7df44989-8aa5-42d7-9e0e-4c513fb8c98a",
+        "name": "I_I4261_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/567b009b-9968-44cd-93cc-38906803ef96/resource/7df44989-8aa5-42d7-9e0e-4c513fb8c98a/download/i_i4261_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3670",
+    "title": "Indice des prix à la production (Base 100 2010)",
+    "modified": "2026-10-30T10:55:09.093104",
+    "resources": [
+      {
+        "id": "ad7ecde3-affa-4922-ba10-c11309eea1d2",
+        "name": "I_I3670_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/babbc90b-1391-42e1-a523-196c7671e25b/resource/ad7ecde3-affa-4922-ba10-c11309eea1d2/download/i_i3670_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "fade074c-191a-42d9-9495-8e13d0b0896e",
+        "name": "I_I3670_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/babbc90b-1391-42e1-a523-196c7671e25b/resource/fade074c-191a-42d9-9495-8e13d0b0896e/download/i_i3670_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4274",
+    "title": "Valeurs ajoutées en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:35.197699",
+    "resources": [
+      {
+        "id": "3a1e3b34-e276-4498-b669-3f32e0b53d19",
+        "name": "I_I4274_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/349da4fc-ea55-4822-878f-5c1b6a94f279/resource/3a1e3b34-e276-4498-b669-3f32e0b53d19/download/i_i4274_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "e95675ee-abb7-4de2-a5ee-25fe74612184",
+        "name": "I_I4274_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/349da4fc-ea55-4822-878f-5c1b6a94f279/resource/e95675ee-abb7-4de2-a5ee-25fe74612184/download/i_i4274_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4264",
+    "title": "Dépenses de consommation finale des ménages à prix courants (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:27.386069",
+    "resources": [
+      {
+        "id": "035ce173-f87c-4429-89f3-5ad2a4a77aad",
+        "name": "I_I4264_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e99ceec2-4f24-4a63-8329-2a45315f5fd5/resource/035ce173-f87c-4429-89f3-5ad2a4a77aad/download/i_i4264_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "311658b8-ca19-4553-955e-55fbc0ce7d51",
+        "name": "I_I4264_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e99ceec2-4f24-4a63-8329-2a45315f5fd5/resource/311658b8-ca19-4553-955e-55fbc0ce7d51/download/i_i4264_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4263",
+    "title": "Dépenses de consommation finale des ménages en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:26.928133",
+    "resources": [
+      {
+        "id": "bc2c47b2-bebf-436d-a4f8-26c4a9924cde",
+        "name": "I_I4263_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/b6f8e496-23f7-48f9-818a-8d2ee402e6d9/resource/bc2c47b2-bebf-436d-a4f8-26c4a9924cde/download/i_i4263_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "7fbc9c18-4ee3-43f6-ab0f-f323ddf2c496",
+        "name": "I_I4263_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/b6f8e496-23f7-48f9-818a-8d2ee402e6d9/resource/7fbc9c18-4ee3-43f6-ab0f-f323ddf2c496/download/i_i4263_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4252",
+    "title": "Taux de chômage selon les tranches d'âge et le sexe (Trimestriel)",
+    "modified": "2026-10-30T10:55:25.252602",
+    "resources": [
+      {
+        "id": "2753a859-db48-48c4-8e90-c645d4c98175",
+        "name": "I_I4252_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/9c8efe6e-c4af-486c-ae2c-c92be06ffeea/resource/2753a859-db48-48c4-8e90-c645d4c98175/download/i_i4252_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "99cec666-0a21-40d2-96c8-f9a91bad9f05",
+        "name": "I_I4252_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/9c8efe6e-c4af-486c-ae2c-c92be06ffeea/resource/99cec666-0a21-40d2-96c8-f9a91bad9f05/download/i_i4252_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4166",
+    "title": "Indice des prix à la consommation (Mensuel) (Base 100 2017)",
+    "modified": "2026-10-30T10:55:18.603635",
+    "resources": [
+      {
+        "id": "bd692621-d8ba-4463-8d43-e66c3313ae59",
+        "name": "I_I4166_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/7582f4fb-f157-414b-814a-4c1b474b8d87/resource/bd692621-d8ba-4463-8d43-e66c3313ae59/download/i_i4166_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "28d58149-01a1-4aaa-8886-e74ebe91d072",
+        "name": "I_I4166_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/7582f4fb-f157-414b-814a-4c1b474b8d87/resource/28d58149-01a1-4aaa-8886-e74ebe91d072/download/i_i4166_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4001",
+    "title": "Taux de chômage selon le Milieu, le sexe et le groupe d'âges",
+    "modified": "2026-10-30T10:55:11.102158",
+    "resources": [
+      {
+        "id": "76a534f0-357f-427c-b511-7e8818cfc08f",
+        "name": "I_I4001_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/a0c0ae2d-24f5-4c27-a95f-a856247b4bac/resource/76a534f0-357f-427c-b511-7e8818cfc08f/download/i_i4001_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "226fefb1-c687-4f32-bf62-13d302d5ce8f",
+        "name": "I_I4001_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/a0c0ae2d-24f5-4c27-a95f-a856247b4bac/resource/226fefb1-c687-4f32-bf62-13d302d5ce8f/download/i_i4001_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3981",
+    "title": "Indice des prix à la consommation (Base 100 2017)",
+    "modified": "2026-10-30T10:55:09.916900",
+    "resources": [
+      {
+        "id": "9bb854cc-f2c2-4839-8738-63eda65f08f0",
+        "name": "I_I3981_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/130f6b55-586d-441d-b36e-7b598cf7d97d/resource/9bb854cc-f2c2-4839-8738-63eda65f08f0/download/i_i3981_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "8641c2d7-3c5e-44c7-96d2-561f67e500aa",
+        "name": "I_I3981_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/130f6b55-586d-441d-b36e-7b598cf7d97d/resource/8641c2d7-3c5e-44c7-96d2-561f67e500aa/download/i_i3981_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3287",
+    "title": "Taux de chômage par sexe et région",
+    "modified": "2026-10-30T10:55:08.538419",
+    "resources": [
+      {
+        "id": "24fcc252-a294-484a-87ca-a08b2ab10405",
+        "name": "I_I3287_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e8c95426-bde8-4ae0-95a0-b13ecf2ff4b6/resource/24fcc252-a294-484a-87ca-a08b2ab10405/download/i_i3287_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "b16af23d-7c83-44a5-9da6-05d238ec16d1",
+        "name": "I_I3287_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e8c95426-bde8-4ae0-95a0-b13ecf2ff4b6/resource/b16af23d-7c83-44a5-9da6-05d238ec16d1/download/i_i3287_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3182",
+    "title": "Valeurs ajoutées (cvs) aux prix de l'année précédente chainés  par branche d'activité (Trimestrielle Base 2007)",
+    "modified": "2026-10-30T10:55:07.506897",
+    "resources": [
+      {
+        "id": "8d63ecb9-6419-4838-ae82-ca5b8bf974f7",
+        "name": "I_I3182_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/b9725a7e-13b8-4e5e-87fe-359bfd2d8e60/resource/8d63ecb9-6419-4838-ae82-ca5b8bf974f7/download/i_i3182_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "2cb98e15-675a-4345-9a67-4d195115e4a3",
+        "name": "I_I3182_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/b9725a7e-13b8-4e5e-87fe-359bfd2d8e60/resource/2cb98e15-675a-4345-9a67-4d195115e4a3/download/i_i3182_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i3181",
+    "title": "Valeurs ajoutées (cvs) aux prix courants par branche d'activité (Trimestrielle Base 2007)",
+    "modified": "2026-10-30T10:55:06.867033",
+    "resources": [
+      {
+        "id": "7c6fa3f6-a9bc-45da-aece-c8ff693a855e",
+        "name": "I_I3181_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e7695e22-80a0-408c-9600-f53343c20dd0/resource/7c6fa3f6-a9bc-45da-aece-c8ff693a855e/download/i_i3181_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "3e2fb32d-1aab-43b5-85fb-c6a305030256",
+        "name": "I_I3181_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e7695e22-80a0-408c-9600-f53343c20dd0/resource/3e2fb32d-1aab-43b5-85fb-c6a305030256/download/i_i3181_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2866",
+    "title": "Actifs occupés de 15 ans et plus occupant des emplois non rémunérés",
+    "modified": "2026-10-30T10:55:03.670926",
+    "resources": [
+      {
+        "id": "7e583059-7b85-4823-99df-1e66625902bd",
+        "name": "I_I2866_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/0eec7a52-b351-476c-bbb0-364822d9fb6a/resource/7e583059-7b85-4823-99df-1e66625902bd/download/i_i2866_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "802ce235-27c7-4b39-ba4f-efde175bee04",
+        "name": "I_I2866_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/0eec7a52-b351-476c-bbb0-364822d9fb6a/resource/802ce235-27c7-4b39-ba4f-efde175bee04/download/i_i2866_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i2865",
+    "title": "Taux de couverture des travailleurs salariés de 15 ans et plus par une assurance maladie liée à leur emploi",
+    "modified": "2026-10-30T10:55:03.142016",
+    "resources": [
+      {
+        "id": "d2bd1d1c-d419-4a64-94f0-3ac8342150e2",
+        "name": "I_I2865_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/a0abac37-aa76-46b3-880b-d85927ddecd0/resource/d2bd1d1c-d419-4a64-94f0-3ac8342150e2/download/i_i2865_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "1cc9b046-69e9-4ee6-9efd-3288a8febb40",
+        "name": "I_I2865_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/a0abac37-aa76-46b3-880b-d85927ddecd0/resource/1cc9b046-69e9-4ee6-9efd-3288a8febb40/download/i_i2865_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1465",
+    "title": "Taux d'emploi des 15 ans et plus",
+    "modified": "2026-10-30T10:54:59.967477",
+    "resources": [
+      {
+        "id": "b212d5da-7c6d-4b6d-9716-bf7da5f8e43f",
+        "name": "I_I1465_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/ab6aac2c-bac9-4640-9da2-a7c3116f71b6/resource/b212d5da-7c6d-4b6d-9716-bf7da5f8e43f/download/i_i1465_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "73719510-e417-41f5-8003-9fffec6d6c4f",
+        "name": "I_I1465_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/ab6aac2c-bac9-4640-9da2-a7c3116f71b6/resource/73719510-e417-41f5-8003-9fffec6d6c4f/download/i_i1465_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1449",
+    "title": "Formation brut du capital fixe aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:58.886166",
+    "resources": [
+      {
+        "id": "fe7870d3-97a6-445a-ba95-9efaf85e76d5",
+        "name": "I_I1449_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/1df65104-a5f8-458e-8c9c-8673277846b5/resource/fe7870d3-97a6-445a-ba95-9efaf85e76d5/download/i_i1449_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "2ecdbbad-4825-439d-b873-fcd1a9c33aa9",
+        "name": "I_I1449_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/1df65104-a5f8-458e-8c9c-8673277846b5/resource/2ecdbbad-4825-439d-b873-fcd1a9c33aa9/download/i_i1449_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1448",
+    "title": "Formation brut du capital fixe aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:58.462251",
+    "resources": [
+      {
+        "id": "fb7b22b0-f39a-48fb-90d6-94795f240d04",
+        "name": "I_I1448_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/f6ebe9b3-6654-44ff-bbb2-a9bc2d85c503/resource/fb7b22b0-f39a-48fb-90d6-94795f240d04/download/i_i1448_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "d6a2de2e-b3bd-41dc-807e-a22faff1e57a",
+        "name": "I_I1448_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/f6ebe9b3-6654-44ff-bbb2-a9bc2d85c503/resource/d6a2de2e-b3bd-41dc-807e-a22faff1e57a/download/i_i1448_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1442",
+    "title": "Consommation finale des ISBL aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:57.117769",
+    "resources": [
+      {
+        "id": "a2129581-4f6f-4789-a338-18671559b365",
+        "name": "I_I1442_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/ab38ea72-d0ec-40f3-aaba-44b68586b368/resource/a2129581-4f6f-4789-a338-18671559b365/download/i_i1442_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "2c233b2e-8d3b-43a4-9550-c0d15880fd63",
+        "name": "I_I1442_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/ab38ea72-d0ec-40f3-aaba-44b68586b368/resource/2c233b2e-8d3b-43a4-9550-c0d15880fd63/download/i_i1442_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1440",
+    "title": "Dépenses de consommation finale des Administrations publiques aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:56.372357",
+    "resources": [
+      {
+        "id": "58dfc694-743c-44ab-8439-adf0589b940f",
+        "name": "I_I1440_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/7ebb25ae-c4bf-4fbf-a86a-65b6623848dc/resource/58dfc694-743c-44ab-8439-adf0589b940f/download/i_i1440_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "93dc680f-01c9-4d9e-9eab-ad3e0dac09cc",
+        "name": "I_I1440_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/7ebb25ae-c4bf-4fbf-a86a-65b6623848dc/resource/93dc680f-01c9-4d9e-9eab-ad3e0dac09cc/download/i_i1440_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1438",
+    "title": "Impôts sur les produits nets des subventions aux prix constants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:54.774695",
+    "resources": [
+      {
+        "id": "9293deb0-6cc0-4058-98ec-568453e832c7",
+        "name": "I_I1438_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/47d4289e-46d2-41c2-b877-b06b9bc8e136/resource/9293deb0-6cc0-4058-98ec-568453e832c7/download/i_i1438_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "78fe71c1-3765-472c-937e-40da0ea2cd15",
+        "name": "I_I1438_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/47d4289e-46d2-41c2-b877-b06b9bc8e136/resource/78fe71c1-3765-472c-937e-40da0ea2cd15/download/i_i1438_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1435",
+    "title": "Consommation finale des ISBL aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:53.788203",
+    "resources": [
+      {
+        "id": "31d023fe-3ca2-4193-bd0f-3de411bbb29c",
+        "name": "I_I1435_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/32ecfe6b-91dd-453b-86e5-94f97053d20c/resource/31d023fe-3ca2-4193-bd0f-3de411bbb29c/download/i_i1435_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "9f6f56b2-e4b5-47f5-a433-d6523ad6bf72",
+        "name": "I_I1435_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/32ecfe6b-91dd-453b-86e5-94f97053d20c/resource/9f6f56b2-e4b5-47f5-a433-d6523ad6bf72/download/i_i1435_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1433",
+    "title": "Dépenses de consommation finale des Administrations publiques aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:52.967611",
+    "resources": [
+      {
+        "id": "c3fb23be-1b96-49d3-9bba-5841494f0037",
+        "name": "I_I1433_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/15ad9358-4646-45f5-a5d7-3afc0bbee7ea/resource/c3fb23be-1b96-49d3-9bba-5841494f0037/download/i_i1433_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "56081fd4-5176-402c-a261-fd1c9d73ea99",
+        "name": "I_I1433_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/15ad9358-4646-45f5-a5d7-3afc0bbee7ea/resource/56081fd4-5176-402c-a261-fd1c9d73ea99/download/i_i1433_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1431",
+    "title": "Impôts sur les produits nets des subventions aux prix courants (Annuelle Base 2007)",
+    "modified": "2026-10-30T10:54:52.261592",
+    "resources": [
+      {
+        "id": "94d15eb2-a507-471e-b4d3-d6fc0b9f8633",
+        "name": "I_I1431_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/c79d8922-5988-4401-826f-534fa777f018/resource/94d15eb2-a507-471e-b4d3-d6fc0b9f8633/download/i_i1431_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "5905f238-5e31-4999-a290-696c3e64bb65",
+        "name": "I_I1431_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/c79d8922-5988-4401-826f-534fa777f018/resource/5905f238-5e31-4999-a290-696c3e64bb65/download/i_i1431_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i1418",
+    "title": "Indice des prix à la production industrielle, énergétique et minière (IPP) (Base 100 :  2010)",
+    "modified": "2026-10-30T10:54:50.273336",
+    "resources": [
+      {
+        "id": "2614b2a9-7ae8-4f11-bf85-13870c64ea1d",
+        "name": "I_I1418_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/04f4c363-19b5-48ca-a84a-a1d792b14349/resource/2614b2a9-7ae8-4f11-bf85-13870c64ea1d/download/i_i1418_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "afca271f-512b-4d5e-a55b-ad2040b1dafd",
+        "name": "I_I1418_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/04f4c363-19b5-48ca-a84a-a1d792b14349/resource/afca271f-512b-4d5e-a55b-ad2040b1dafd/download/i_i1418_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4278",
+    "title": "Valeurs ajoutées (cvs) aux prix courants base 2014 par branche d'activité (Trimestrielle Base 2014)",
+    "modified": "2026-10-30T10:55:37.282919",
+    "resources": [
+      {
+        "id": "8642d066-3ac0-4223-bb8b-fe6a38ee9679",
+        "name": "I_I4278_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e9d7e5c5-164e-42d1-b20f-c0f67b30bb66/resource/8642d066-3ac0-4223-bb8b-fe6a38ee9679/download/i_i4278_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "9d7df967-a24d-4360-81e1-b58f5cefc199",
+        "name": "I_I4278_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/e9d7e5c5-164e-42d1-b20f-c0f67b30bb66/resource/9d7df967-a24d-4360-81e1-b58f5cefc199/download/i_i4278_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4276",
+    "title": "Décomposition du PIB (CVS) aux prix de l'année precedente chainés (Trimestrielle Base 2014)",
+    "modified": "2026-10-30T10:55:36.213898",
+    "resources": [
+      {
+        "id": "41b9b510-7224-44d7-8759-631fb8e3f4e5",
+        "name": "I_I4276_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/cf5370a6-e88a-4470-b820-452f743c6e27/resource/41b9b510-7224-44d7-8759-631fb8e3f4e5/download/i_i4276_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "d039afca-e308-455d-82ab-6e0f3072a6d7",
+        "name": "I_I4276_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/cf5370a6-e88a-4470-b820-452f743c6e27/resource/d039afca-e308-455d-82ab-6e0f3072a6d7/download/i_i4276_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4271",
+    "title": "Produit intérieur brut par secteur d’activité en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:33.323387",
+    "resources": [
+      {
+        "id": "085ad06c-326b-4907-be23-316ce8e9c6c2",
+        "name": "I_I4271_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/57d86b82-38ed-4c93-9658-3b03f0113749/resource/085ad06c-326b-4907-be23-316ce8e9c6c2/download/i_i4271_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "c4ae0763-1031-4fc7-9c13-bcc08610780b",
+        "name": "I_I4271_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/57d86b82-38ed-4c93-9658-3b03f0113749/resource/c4ae0763-1031-4fc7-9c13-bcc08610780b/download/i_i4271_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4268",
+    "title": "Formation brute de capital fixe par produit à prix courants (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:30.233019",
+    "resources": [
+      {
+        "id": "2c98508b-d650-4d9b-919a-4710780cdf8c",
+        "name": "I_I4268_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/6e057d59-6503-4e4e-85e3-9cb8d594d504/resource/2c98508b-d650-4d9b-919a-4710780cdf8c/download/i_i4268_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "bdf552d8-0a71-44df-915e-0ad0b1673cfd",
+        "name": "I_I4268_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/6e057d59-6503-4e4e-85e3-9cb8d594d504/resource/bdf552d8-0a71-44df-915e-0ad0b1673cfd/download/i_i4268_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4267",
+    "title": "Formation brute de capital fixe par produit en volume aux prix de l’année précédente chaînés (Annuelle Base 2014)",
+    "modified": "2026-10-30T10:55:29.780018",
+    "resources": [
+      {
+        "id": "fa58f054-3381-4568-b029-9e6863cd0b8d",
+        "name": "I_I4267_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/bbb96a7b-3b4e-420f-83f7-3c86964112f5/resource/fa58f054-3381-4568-b029-9e6863cd0b8d/download/i_i4267_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "c10ecd26-8e0b-4731-bce0-245e308fe261",
+        "name": "I_I4267_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/bbb96a7b-3b4e-420f-83f7-3c86964112f5/resource/c10ecd26-8e0b-4731-bce0-245e308fe261/download/i_i4267_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_imt20",
+    "title": "Taux d'activité par sexe et région",
+    "modified": "2026-10-30T10:55:42.070023",
+    "resources": [
+      {
+        "id": "06783d84-8018-420d-8eb8-c87bd3658473",
+        "name": "I_IMT20_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/1d66d9ed-68f3-47f6-bd13-3abe489ca159/resource/06783d84-8018-420d-8eb8-c87bd3658473/download/i_imt20_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "83e1ab78-015e-498d-a7df-942646718c6b",
+        "name": "I_IMT20_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/1d66d9ed-68f3-47f6-bd13-3abe489ca159/resource/83e1ab78-015e-498d-a7df-942646718c6b/download/i_imt20_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4251",
+    "title": "Taux d'activité selon les tranches d'âge et le Sexe",
+    "modified": "2026-10-30T10:55:24.750634",
+    "resources": [
+      {
+        "id": "dae85f0e-d2f6-4273-a1c5-b9a7ec1eacb6",
+        "name": "I_I4251_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/9cbd8aad-8a1e-4666-8fe8-aa8e30c56e5a/resource/dae85f0e-d2f6-4273-a1c5-b9a7ec1eacb6/download/i_i4251_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "16b94d14-52cf-48bf-981f-f933f65fc804",
+        "name": "I_I4251_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/9cbd8aad-8a1e-4666-8fe8-aa8e30c56e5a/resource/16b94d14-52cf-48bf-981f-f933f65fc804/download/i_i4251_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4246",
+    "title": "Taux d'activité selon les tranches d'âge et sexe R_3228",
+    "modified": "2026-10-30T10:55:21.973628",
+    "resources": [
+      {
+        "id": "e35eeeb2-da0d-4e28-9d24-45220c6c1507",
+        "name": "I_I4246_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/3f3eb54f-830f-4936-aa5c-0bec150e0791/resource/e35eeeb2-da0d-4e28-9d24-45220c6c1507/download/i_i4246_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "56a754de-c561-4fdd-9d81-11a2826af487",
+        "name": "I_I4246_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/3f3eb54f-830f-4936-aa5c-0bec150e0791/resource/56a754de-c561-4fdd-9d81-11a2826af487/download/i_i4246_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4003",
+    "title": "La population active occupée selon le sexe et la profession",
+    "modified": "2026-10-30T10:55:12.370348",
+    "resources": [
+      {
+        "id": "369fb01e-9c50-4b68-bbcd-be43687412ea",
+        "name": "I_I4003_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/c36cd26f-2d2d-4ed0-821d-5b8a5df567bf/resource/369fb01e-9c50-4b68-bbcd-be43687412ea/download/i_i4003_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "1a093ea1-41ef-4c0b-b24a-9fea1cfc3d13",
+        "name": "I_I4003_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/c36cd26f-2d2d-4ed0-821d-5b8a5df567bf/resource/1a093ea1-41ef-4c0b-b24a-9fea1cfc3d13/download/i_i4003_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  },
+  {
+    "name": "data_i4279",
+    "title": "Valeurs ajoutées (cvs) aux prix de l'année précédente chainés (base 2014 ) par branche d'activité (Trimestrielle Base 2014)",
+    "modified": "2026-10-30T10:55:38.096022",
+    "resources": [
+      {
+        "id": "7f660503-5515-4c92-b11b-53234f24d32d",
+        "name": "I_I4279_data.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/6f875017-2373-419b-9a85-2eed7cbe0d2e/resource/7f660503-5515-4c92-b11b-53234f24d32d/download/i_i4279_data.xlsx",
+        "datastore": false
+      },
+      {
+        "id": "274634e4-0e6c-4b2c-9d7f-559f354b21fa",
+        "name": "I_I4279_metadata.xlsx",
+        "format": "XLSX",
+        "url": "https://data.gov.ma/data/dataset/6f875017-2373-419b-9a85-2eed7cbe0d2e/resource/274634e4-0e6c-4b2c-9d7f-559f354b21fa/download/i_i4279_metadata.xlsx",
+        "datastore": false
+      }
+    ]
+  }
+]

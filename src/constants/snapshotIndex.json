@@ -1,4 +1,22 @@
 {
-  "generatedAt": null,
-  "indicators": {}
+  "generatedAt": "2026-11-13T21:02:36.461Z",
+  "ckanBase": "https://data.gov.ma/data/api/3/action",
+  "indicators": {
+    "chomage_urbain": {
+      "ok": false,
+      "pendingReview": true
+    },
+    "chomage_rural": {
+      "ok": false,
+      "pendingReview": true
+    },
+    "pib": {
+      "ok": false,
+      "pendingReview": true
+    },
+    "exportations_agricoles": {
+      "ok": false,
+      "pendingReview": true
+    }
+  }
 }

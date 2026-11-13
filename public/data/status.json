@@ -1,5 +1,5 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-11-13T21:02:36.461Z",
   "total": 29,
   "available": 0,
   "indicators": [
@@ -7,6 +7,7 @@
       "id": "taux_chomage",
       "label": "Taux de chômage",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -15,6 +16,7 @@
       "id": "taux_emploi",
       "label": "Taux d'emploi",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -23,6 +25,7 @@
       "id": "population_active",
       "label": "Population active",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -30,7 +33,8 @@
     {
       "id": "chomage_urbain",
       "label": "Chômage urbain",
-      "mapped": false,
+      "mapped": true,
+      "pendingReview": true,
       "ok": false,
       "stale": false,
       "years": ""
@@ -38,7 +42,8 @@
     {
       "id": "chomage_rural",
       "label": "Chômage rural",
-      "mapped": false,
+      "mapped": true,
+      "pendingReview": true,
       "ok": false,
       "stale": false,
       "years": ""
@@ -47,6 +52,7 @@
       "id": "chomage_jeunes",
       "label": "Chômage des jeunes 15-24",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -55,6 +61,7 @@
       "id": "population_totale",
       "label": "Population totale",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -63,6 +70,7 @@
       "id": "natalite",
       "label": "Taux de natalité",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -71,6 +79,7 @@
       "id": "mortalite",
       "label": "Taux de mortalité",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -79,6 +88,7 @@
       "id": "esperance_vie",
       "label": "Espérance de vie",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -87,6 +97,7 @@
       "id": "urbanisation",
       "label": "Taux d'urbanisation",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -94,7 +105,8 @@
     {
       "id": "pib",
       "label": "PIB (Mrd MAD)",
-      "mapped": false,
+      "mapped": true,
+      "pendingReview": true,
       "ok": false,
       "stale": false,
       "years": ""
@@ -103,6 +115,7 @@
       "id": "croissance_pib",
       "label": "Croissance PIB",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -111,6 +124,7 @@
       "id": "pib_habitant",
       "label": "PIB par habitant",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -119,6 +133,7 @@
       "id": "investissement_pib",
       "label": "Investissement / PIB",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -127,6 +142,7 @@
       "id": "ipc",
       "label": "IPC (base 100)",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -135,6 +151,7 @@
       "id": "inflation",
       "label": "Taux d'inflation",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -143,6 +160,7 @@
       "id": "inflation_alimentaire",
       "label": "Inflation alimentaire",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -151,6 +169,7 @@
       "id": "scolarisation_primaire",
       "label": "Scolarisation primaire",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -159,6 +178,7 @@
       "id": "abandon_scolaire",
       "label": "Abandon scolaire",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -167,6 +187,7 @@
       "id": "medecins",
       "label": "Médecins / 10 000 hab.",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -175,6 +196,7 @@
       "id": "couverture_medicale",
       "label": "Couverture médicale",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -183,6 +205,7 @@
       "id": "mortalite_infantile",
       "label": "Mortalité infantile",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -191,6 +214,7 @@
       "id": "production_cerealiere",
       "label": "Production céréalière",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -198,7 +222,8 @@
     {
       "id": "exportations_agricoles",
       "label": "Exportations agricoles",
-      "mapped": false,
+      "mapped": true,
+      "pendingReview": true,
       "ok": false,
       "stale": false,
       "years": ""
@@ -207,6 +232,7 @@
       "id": "indice_production_industrielle",
       "label": "Indice production industrielle",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -215,6 +241,7 @@
       "id": "exportations",
       "label": "Exportations totales",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -223,6 +250,7 @@
       "id": "importations",
       "label": "Importations totales",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
@@ -231,6 +259,7 @@
       "id": "ide",
       "label": "IDE reçus",
       "mapped": false,
+      "pendingReview": false,
       "ok": false,
       "stale": false,
       "years": ""
