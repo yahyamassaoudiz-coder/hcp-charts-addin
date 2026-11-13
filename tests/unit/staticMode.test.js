@@ -38,7 +38,8 @@ describe("GitHub Pages static mode", () => {
     vi.stubEnv("VITE_DATA_SOURCE", "static");
     const { INDICATORS, MAPPING_META } = await import("../../src/constants/indicators.js");
     expect(MAPPING_META.dataSource).toBe("static");
-    expect(INDICATORS.every(i => i.mapped === false)).toBe(true);   // seed index is empty
+    const { default: SNAP } = await import("../../src/constants/snapshotIndex.json");
+    for (const i of INDICATORS) expect(i.mapped, i.id).toBe(!!SNAP.indicators?.[i.id]?.ok);
   });
 });
 

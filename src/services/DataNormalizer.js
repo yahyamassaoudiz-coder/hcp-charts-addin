@@ -36,6 +36,8 @@ const REGION_ALIASES = {
   "dakhla oued ed dahab": "Dakhla-Oued Ed-Dahab", "dakhla oued eddahab": "Dakhla-Oued Ed-Dahab", "dakhla": "Dakhla-Oued Ed-Dahab"
 };
 
+const SOUTH_REGIONS = ["Laâyoune-Sakia El Hamra", "Guelmim-Oued Noun", "Dakhla-Oued Ed-Dahab"];
+
 const NATIONAL_RE = /\b(national|ensemble|maroc|royaume|total)\b/i;
 const AGGREGATE_RE = /\b(ensemble|total|national)\b/i;
 
@@ -179,7 +181,17 @@ export function normalizeDatasetDetailed(records, indicator, filters) {
       if (!hasRegion) {
         throw new Error(`« ${indicator.label} » n'est publié qu'au niveau national — retirez le filtre de région.`);
       }
-      recs = recs.filter(r => normalizeRegion(r.region) === filters.region);
+      const exact = recs.filter(r => normalizeRegion(r.region) === filters.region);
+      // HCP often publishes the three southern regions as one "Régions du Sud" row
+      if (!exact.length && SOUTH_REGIONS.includes(filters.region)) {
+        const south = recs.filter(r => normKey(r.region) === "regions du sud");
+        if (south.length) {
+          warnings.push(`« ${indicator.label} » : le HCP publie les régions du Sud ensemble (Laâyoune, Guelmim, Dakhla) — chiffre commun affiché.`);
+        }
+        recs = south;
+      } else {
+        recs = exact;
+      }
       if (filters.city) {
         if (indicator.cityField) {
           const c = normKey(filters.city);

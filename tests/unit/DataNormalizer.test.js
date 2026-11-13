@@ -113,3 +113,15 @@ describe("transforms (v1.3)", () => {
     expect(normalizeDataset(rows, { ...ind, filters: { Milieu: "Urbain", Sexe: "Total" } }, { region: "Oriental" }).map(p => p.value)).toEqual([25]);
   });
 });
+
+describe("southern regions", () => {
+  it("fall back to the combined « Régions du Sud » row with a note", () => {
+    const rows = [{ Milieu: "National", "Région": "Régions du Sud", Sexe: "Total", "2025": 17.5 },
+                  { Milieu: "National", "Région": "Oriental", Sexe: "Total", "2025": 22.1 }];
+    const ind = { label: "Chômage", layout: "wide", regionField: "Région", filters: { Milieu: "National", Sexe: "Total" } };
+    const r = normalizeDatasetDetailed(rows, ind, { region: "Guelmim-Oued Noun" });
+    expect(r.points.map(p => p.value)).toEqual([17.5]);
+    expect(r.warnings[0]).toMatch(/Sud/);
+    expect(normalizeDataset(rows, ind, { region: "Oriental" }).map(p => p.value)).toEqual([22.1]);
+  });
+});
