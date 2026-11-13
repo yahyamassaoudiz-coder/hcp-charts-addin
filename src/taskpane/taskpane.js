@@ -52,7 +52,7 @@ const state = {
   selectedCity: null,
   selectedIndicators: new Set(),
   startYear: 2015,
-  endYear: 2024,
+  endYear: 2025,
   selectedChartType: null,
   autoChartType: true,    // FIX: was "autoChart" (undefined)
   isLoading: false,
@@ -344,7 +344,7 @@ function bindEvents() {
   });
 
   DOM.inputEndYear.addEventListener("change", (e) => {
-    state.endYear = parseInt(e.target.value, 10) || 2024;
+    state.endYear = parseInt(e.target.value, 10) || 2025;
     validateYears();
     updateChartSuggestion();
   });
@@ -551,7 +551,7 @@ function resetAllFilters() {
   state.selectedCity = null;
   state.selectedIndicators.clear();
   state.startYear = 2015;
-  state.endYear = 2024;
+  state.endYear = 2025;
   state.selectedChartType = null;
   state.autoChartType = true;
 
@@ -569,7 +569,7 @@ function resetAllFilters() {
   });
 
   DOM.inputStartYear.value = "2015";
-  DOM.inputEndYear.value = "2024";
+  DOM.inputEndYear.value = "2025";
   DOM.yearError.style.display = "none";
   DOM.toggleAutoChart.checked = true;
   DOM.chartTypeGrid.style.display = "none";
@@ -716,7 +716,7 @@ async function handleInsertChart() {
 
     const notes = [
       ...failedResults.map(r => r.error || ("« " + r.indicator.label + " » : aucune donnée")),
-      ...normalizedData.errors.map(e => "« " + e.indicator.label + " » : " + e.error),
+      ...normalizedData.errors.map(e => e.error.includes(e.indicator.label) ? e.error : "« " + e.indicator.label + " » : " + e.error),
       ...normalizedData.warnings
     ];
 
