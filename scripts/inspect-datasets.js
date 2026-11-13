@@ -17,6 +17,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import Papa from "papaparse";
 import { readXlsx } from "../src/utils/xlsxReader.js";
+import { tableFromMatrix, YEAR_RE } from "../src/utils/table.js";
 import { UA, MAX_BYTES } from "./map-indicators.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -28,6 +29,20 @@ const cell = (v) => {
   const s = String(v).replace(/\s+/g, " ").replace(/\|/g, "/").trim();
   return s.length > CELL ? s.slice(0, CELL - 1) + "…" : s;
 };
+
+/** Every distinct value of each non-year column (what `filters` can pin). */
+function dimensions(matrix) {
+  const { headers, rows, headerRow } = tableFromMatrix(matrix);
+  const years = headers.filter(h => YEAR_RE.test(h));
+  const lines = [`header row: ${headerRow} · data rows: ${rows.length} · year columns: ${years.length ? years[0] + " … " + years[years.length - 1] + " (" + years.length + ")" : "none"}`];
+  for (const h of headers.filter(h => !YEAR_RE.test(h))) {
+    const vals = [...new Set(rows.map(r => r[h]).filter(v => v !== null && v !== undefined && String(v).trim() !== "").map(v => String(v).trim()))];
+    if (!vals.length) continue;
+    const numeric = vals.every(v => !isNaN(Number(String(v).replace(",", "."))));
+    lines.push(`- \`${h}\` (${vals.length}${numeric ? ", numeric" : ""}): ${numeric && vals.length > 12 ? "…" : vals.slice(0, 60).map(v => "`" + cell(v) + "`").join(", ")}${vals.length > 60 ? " …" : ""}`);
+  }
+  return lines.join("\n");
+}
 
 function table(matrix) {
   const rows = matrix.slice(0, ROWS).map(r => (r || []).slice(0, COLS));
@@ -54,7 +69,7 @@ async function sampleResource(res) {
   for (let i = 0; i < Math.min(first.sheetNames.length, MAX_SHEETS); i++) {
     const { sheet, matrix } = i === 0 ? first : await readXlsx(buf, { sheet: i });
     const used = matrix.filter(r => r && r.some(v => v !== null && v !== undefined && String(v).trim() !== "")).length;
-    parts.push(`#### Sheet \`${sheet}\` — ${used} non-empty rows\n\n${table(matrix)}`);
+    parts.push(`#### Sheet \`${sheet}\` — ${used} non-empty rows\n\n${dimensions(matrix)}\n\n${table(matrix)}`);
   }
   return parts.join("\n\n");
 }
