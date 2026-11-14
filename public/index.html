@@ -9,9 +9,13 @@
   @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#ececec; --muted:#a0a0a0; --line:#2c2c2c; --accent:#6fa8dc; --ok:#7bc47f; --warn:#e0b252; --bad:#f28b82; } }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  main { max-width: 860px; margin: 0 auto; padding: 40px 16px 64px; }
   h1 { font-size: 28px; margin: 0 0 4px; }
   .sub { color: var(--muted); margin: 0 0 28px; }
+  .ways { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:16px; }
+  .way { border:1px solid var(--line); border-radius:10px; padding:18px; min-width:0; }
+  .way h2 { margin:0 0 8px; } .way p { margin:0 0 12px; }
+  a.btn.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
   a.btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:10px 18px; border-radius:8px; font-weight:600; }
   ol { padding-left: 20px; } li { margin: 6px 0; }
   code { background: color-mix(in srgb, var(--fg) 8%, transparent); padding: 1px 5px; border-radius: 4px; font-size: 13px; }
@@ -25,16 +29,25 @@
 <body>
 <main>
   <h1>HCP Charts</h1>
-  <p class="sub">Complément PowerPoint : graphiques natifs à partir des statistiques du HCP (data.gov.ma), adaptés au thème de votre présentation.</p>
+  <p class="sub">Des graphiques modifiables à partir des statistiques du Haut-Commissariat au Plan (data.gov.ma).</p>
 
-  <p><a class="btn" href="manifest.xml" download="hcp-charts-manifest.xml">Télécharger le manifeste</a></p>
-
-  <h2>Installer dans PowerPoint</h2>
-  <ol>
-    <li>Téléchargez le manifeste ci-dessus.</li>
-    <li>PowerPoint (web ou Microsoft 365) → <b>Insertion</b> → <b>Compléments</b> → <b>Mes compléments</b> → <b>Charger mon complément</b> → choisissez le fichier.</li>
-    <li>Le bouton <b>HCP Charts</b> apparaît dans l'onglet Insertion.</li>
-  </ol>
+  <div class="ways">
+    <section class="way">
+      <h2>En ligne, sans installation</h2>
+      <p>Choisissez vos indicateurs, puis téléchargez le graphique en <b>.pptx</b> (graphique PowerPoint modifiable) ou en <b>.svg</b>.</p>
+      <p><a class="btn" href="web.html">Créer un graphique</a></p>
+    </section>
+    <section class="way">
+      <h2>Dans PowerPoint</h2>
+      <p>Le complément ajoute un bouton <b>HCP Charts</b> et insère le graphique dans votre présentation, aux couleurs de votre thème.</p>
+      <p><a class="btn ghost" href="manifest.xml" download="hcp-charts-manifest.xml">Télécharger le complément</a></p>
+      <ol>
+        <li>Téléchargez le fichier ci-dessus.</li>
+        <li>PowerPoint → <b>Accueil</b> (ou Insertion) → <b>Compléments</b> → <b>Mes compléments</b> → <b>Charger mon complément</b>.</li>
+        <li>Choisissez le fichier. Le bouton <b>HCP Charts</b> apparaît dans l'onglet Insertion.</li>
+      </ol>
+    </section>
+  </div>
   <p class="muted">Pour toute une organisation : Centre d'administration Microsoft 365 → Applications intégrées → Charger des applications personnalisées → même fichier.</p>
 
   <h2>Données disponibles</h2>

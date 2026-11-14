@@ -57,3 +57,11 @@ describe("build-snapshots", () => {
     expect(validateRows(rows, { ...ind, valueField: "Inexistant" }).ok).toBe(false);
   });
 });
+
+describe("web.html", () => {
+  it("is in sync with taskpane.html", async () => {
+    const fs = await import("fs");
+    const { toWebHtml } = await import("../../scripts/make-web-html.js");
+    expect(fs.readFileSync("src/taskpane/web.html", "utf8")).toBe(toWebHtml(fs.readFileSync("src/taskpane/taskpane.html", "utf8")));
+  });
+});

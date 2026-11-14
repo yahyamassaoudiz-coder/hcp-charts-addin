@@ -67,3 +67,30 @@ describe("ChartEngine — details", () => {
     await expect(ChartEngine.buildChart({ chartType: "tornado", labels, series: [S.pct], filterParams })).rejects.toThrow(/2/);
   });
 });
+
+describe("SvgChart (web version)", async () => {
+  const { renderSvg, pickForm } = await import("../../src/services/SvgChart.js");
+  const { CHARTS_BY_ID } = await import("../../src/constants/chartTypes.js");
+  const allLabels = { title: "Taux de chômage — Oriental", subtitle: "2018–2022 • Unité : %", sourceNote: "Source : HCP — data.gov.ma" };
+  it("picks one axis only: mixed units become panels", () => {
+    expect(pickForm(CHARTS_BY_ID.line, [S.pct, S.pct2], labels)).toBe("line");
+    expect(pickForm(CHARTS_BY_ID.combo, [S.mad, S.pct], labels)).toBe("panels");
+    expect(pickForm(CHARTS_BY_ID.column_clustered, [S.pct], labels)).toBe("column");
+    expect(pickForm(CHARTS_BY_ID.kpi_cards, [S.pct], ["2022"])).toBe("column");
+  });
+  it("renders PowerPoint-friendly SVG for every chart type", () => {
+    for (const c of ALL_CHARTS) {
+      const { svg } = renderSvg({ chartConfig: c, labels, series: seriesFor(c), allLabels });
+      expect(svg.startsWith("<svg xmlns=")).toBe(true);
+      expect(svg).not.toMatch(/NaN|undefined|<style|class=|var\(/);
+      expect(svg).toContain("Taux de chômage — Oriental");
+    }
+  });
+  it("breaks lines at gaps and escapes text", () => {
+    const { svg, simplified } = renderSvg({ chartConfig: CHARTS_BY_ID.line, labels,
+      series: [{ name: "A & <B>", unit: "%", data: [1, null, 3, 4, 5] }], allLabels });
+    expect(svg).toContain("A &amp; &lt;B&gt;");
+    expect((svg.match(/<path d="M[^"]*"/)[0].match(/M/g) || []).length).toBe(2);
+    expect(simplified).toBe(false);
+  });
+});

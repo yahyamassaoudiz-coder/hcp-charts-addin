@@ -41,6 +41,7 @@ import {
 import { INDICATOR_STATS, applySnapshotStatus } from "../constants/indicators.js";
 import STRINGS from "../constants/strings.js";
 import { escapeHtml, validateYearRange } from "../utils/sanitize.js";
+import { renderSvg } from "../services/SvgChart.js";
 
 // ═══════════════════════════════════════════════════════
 // STATE
@@ -105,6 +106,7 @@ function cacheDOMRefs() {
 async function init() {
   console.log("[HCP Charts] Initializing...");
   cacheDOMRefs();
+  if (WEB_MODE) setupWebPanel();
 
   try {
     state.capabilities = await OfficeService.initialize();
@@ -529,6 +531,73 @@ function deselectAllChartTypes() {
 // UI STATE UPDATES
 // ═══════════════════════════════════════════════════════
 
+// ═══════════════════════════════════════════════════════
+// WEB VERSION (web.html) — preview + downloads instead of slide insertion
+// ═══════════════════════════════════════════════════════
+
+const WEB_MODE = typeof document !== "undefined" && document.documentElement.dataset.mode === "web";
+const web = { panel: null, last: null };
+
+function setupWebPanel() {
+  const shell = document.createElement("div");
+  shell.className = "web-shell";
+  const app = document.getElementById("app");
+  app.parentNode.insertBefore(shell, app);
+  shell.appendChild(app);
+  const panel = document.createElement("main");
+  panel.className = "web-panel";
+  panel.innerHTML =
+    '<div class="web-empty" id="web-empty">' +
+      '<h2>Créez un graphique à partir des statistiques du HCP</h2>' +
+      '<ol><li>Choisissez un ou plusieurs indicateurs.</li><li>Ajustez la région et la période si besoin.</li>' +
+      '<li>Cliquez sur <b>Générer le graphique</b>, puis téléchargez-le.</li></ol>' +
+    '</div>' +
+    '<div id="web-result" hidden>' +
+      '<div class="web-preview" id="web-preview" aria-live="polite"></div>' +
+      '<p class="web-note" id="web-note" hidden></p>' +
+      '<div class="web-downloads">' +
+        '<button type="button" class="btn-primary" id="btn-dl-pptx">Télécharger pour PowerPoint (.pptx)</button>' +
+        '<button type="button" class="btn-secondary" id="btn-dl-svg">Télécharger en SVG</button>' +
+      '</div>' +
+      '<ul class="web-help">' +
+        '<li><b>.pptx (recommandé)</b> : un vrai graphique PowerPoint. Clic droit → <i>Modifier les données</i>, changez le type, les couleurs, le thème.</li>' +
+        '<li><b>.svg</b> : une image vectorielle. Dans PowerPoint : Insertion → Images, puis <i>Format du graphique → Convertir en forme</i> pour modifier chaque élément.</li>' +
+      '</ul>' +
+      '<details class="web-table"><summary>Tableau des données</summary><div class="web-table__scroll" id="web-table"></div></details>' +
+    '</div>';
+  shell.appendChild(panel);
+  web.panel = panel;
+  document.getElementById("btn-dl-pptx").addEventListener("click", () => {
+    if (web.last) OfficeService.downloadPptx(web.last.pptx, web.last.fileName + ".pptx");
+  });
+  document.getElementById("btn-dl-svg").addEventListener("click", () => {
+    if (!web.last) return;
+    const url = URL.createObjectURL(new Blob([web.last.svg], { type: "image/svg+xml" }));
+    const a = Object.assign(document.createElement("a"), { href: url, download: web.last.fileName + ".svg" });
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  });
+}
+
+function showWebResult({ pptx, fileName, chartType, normalizedData, labelParams }) {
+  const allLabels = LabelBuilder.buildAllLabels(labelParams);
+  const { svg, simplified } = renderSvg({ chartConfig: chartType, labels: normalizedData.labels, series: normalizedData.series, allLabels });
+  web.last = { pptx, svg, fileName };
+  document.getElementById("web-empty").hidden = true;
+  document.getElementById("web-result").hidden = false;
+  document.getElementById("web-preview").innerHTML = svg;
+  const note = document.getElementById("web-note");
+  note.hidden = !simplified;
+  note.textContent = simplified
+    ? "Aperçu et SVG en version simplifiée. Le fichier .pptx contient le graphique « " + chartType.label + " »."
+    : "";
+  const head = "<tr><th>Année</th>" + normalizedData.series.map(s => "<th>" + escapeHtml(s.name) + (s.unit ? " (" + escapeHtml(s.unit) + ")" : "") + "</th>").join("") + "</tr>";
+  const rows = normalizedData.labels.map((l, i) => "<tr><td>" + escapeHtml(l) + "</td>" +
+    normalizedData.series.map(s => "<td>" + (s.data[i] === null || s.data[i] === undefined ? "—" : s.data[i].toLocaleString("fr-FR", { maximumFractionDigits: 2 })) + "</td>").join("") + "</tr>").join("");
+  document.getElementById("web-table").innerHTML = "<table><thead>" + head + "</thead><tbody>" + rows + "</tbody></table>";
+  if (window.matchMedia("(max-width: 859px)").matches) web.panel.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function updateInsertButton() {
   const hasIndicators = state.selectedIndicators.size > 0;
   const yearsValid = validateYears();
@@ -538,6 +607,7 @@ function updateInsertButton() {
     textEl.textContent = state.selectedIndicators.size > 1
       ? STRINGS.actions.insertMultiple
       : STRINGS.actions.insertChart;
+    if (WEB_MODE) textEl.textContent = "Générer le graphique";
   }
 }
 
@@ -763,6 +833,13 @@ async function handleInsertChart() {
     updateLoadingStep(5);
 
     const fileName = LabelBuilder.buildFileName(labelParams);
+    if (WEB_MODE) {
+      showWebResult({ pptx: base64Pptx, fileName, chartType, normalizedData, labelParams });
+      hideLoading();
+      if (notes.length) showNotes(notes);
+      return;
+    }
+
     const insertResult = await OfficeService.smartInsert(base64Pptx, {
       useTheme: true,
       fileName: fileName + ".pptx"

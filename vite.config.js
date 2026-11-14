@@ -56,6 +56,7 @@ export default defineConfig(async ({ command }) => ({
     rollupOptions: {
       input: {
         taskpane: resolve(__dirname, "src/taskpane/taskpane.html"),
+        web: resolve(__dirname, "src/taskpane/web.html"),
         commands: resolve(__dirname, "src/taskpane/commands.html")
       }
     }
