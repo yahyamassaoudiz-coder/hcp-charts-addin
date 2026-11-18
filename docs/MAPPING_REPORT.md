@@ -1,6 +1,6 @@
 # Rapport de mappage des indicateurs
 
-Généré le 2026-11-17T10:41:44.098Z — source https://data.gov.ma/data/api/3/action — 82 jeux HCP.
+Généré le 2026-11-18T10:07:08.948Z — source https://data.gov.ma/data/api/3/action — 82 jeux HCP.
 
 Corrigez les lignes 🟡/🟠 dans `src/constants/indicatorMap.json` puis mettez `"locked": true`.
 
