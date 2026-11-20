@@ -1,101 +1,101 @@
 {
-  "generatedAt": "2026-11-19T10:18:22.299Z",
+  "generatedAt": "2026-11-20T09:59:31.907Z",
   "ckanBase": "https://data.gov.ma/data/api/3/action",
   "indicators": {
     "taux_chomage": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 99,
       "years": "2015–2025",
       "stale": false
     },
     "taux_emploi": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 3,
       "years": "2012–2025",
       "stale": false
     },
     "chomage_urbain": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 99,
       "years": "2015–2025",
       "stale": false
     },
     "chomage_rural": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 99,
       "years": "2015–2025",
       "stale": false
     },
     "chomage_jeunes": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 45,
       "years": "2014–2025",
       "stale": false
     },
     "pib": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 19,
       "years": "2014–2025",
       "stale": false
     },
     "croissance_pib": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 19,
       "years": "2015–2025",
       "stale": false
     },
     "ipc": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 2744,
       "years": "2017–2025",
       "stale": false
     },
     "inflation": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 2744,
       "years": "2018–2025",
       "stale": false
     },
     "inflation_alimentaire": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 2744,
       "years": "2018–2025",
       "stale": false
     },
     "couverture_medicale": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 3,
       "years": "2011–2025",
       "stale": false
     },
     "exportations_agricoles": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 30,
       "years": "2014–2025",
       "stale": false
     },
     "exportations": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 30,
       "years": "2014–2025",
       "stale": false
     },
     "importations": {
       "ok": true,
-      "fetchedAt": "2026-11-19T10:18:22.299Z",
+      "fetchedAt": "2026-11-20T09:59:31.907Z",
       "rows": 30,
       "years": "2014–2025",
       "stale": false
