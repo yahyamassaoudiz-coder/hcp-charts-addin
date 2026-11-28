@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T10:52:29.582Z",
+  "generatedAt": "2026-11-28T10:23:28.167Z",
   "ckanBase": "https://data.gov.ma/data/api/3/action",
   "indicators": {
     "taux_chomage": {
@@ -194,10 +194,10 @@
       "transform": "pct_change"
     },
     "pib_habitant": {
-      "datasetId": "data_i4276",
-      "datasetTitle": "Décomposition du PIB (CVS) aux prix de l'année precedente chainés (Trimestrielle Base 2014)",
-      "resourceId": "41b9b510-7224-44d7-8759-631fb8e3f4e5",
-      "resourceUrl": "https://data.gov.ma/data/dataset/cf5370a6-e88a-4470-b820-452f743c6e27/resource/41b9b510-7224-44d7-8759-631fb8e3f4e5/download/i_i4276_data.xlsx",
+      "datasetId": "data_i4275",
+      "datasetTitle": "Décomposition du PIB aux prix courants (Trimestrielle Base 2014)",
+      "resourceId": "a860a446-e6cb-4b8a-a402-4d421b74f34f",
+      "resourceUrl": "https://data.gov.ma/data/dataset/204bdf15-5673-471d-afc9-0f16a080ec23/resource/a860a446-e6cb-4b8a-a402-4d421b74f34f/download/i_i4275_data.xlsx",
       "format": "XLSX",
       "datastoreActive": false,
       "layout": "long",
@@ -208,7 +208,7 @@
       "confidence": "low",
       "note": "colonne année introuvable",
       "fieldName": null,
-      "lastModified": "2026-10-30T10:55:36.213898",
+      "lastModified": "2026-10-30T10:55:35.731860",
       "locked": false,
       "mapped": false
     },

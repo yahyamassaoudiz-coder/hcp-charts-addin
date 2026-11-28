@@ -1,6 +1,6 @@
 # Rapport de mappage des indicateurs
 
-Généré le 2026-11-27T10:52:29.583Z — source https://data.gov.ma/data/api/3/action — 82 jeux HCP.
+Généré le 2026-11-28T10:23:28.169Z — source https://data.gov.ma/data/api/3/action — 82 jeux HCP.
 
 Corrigez les lignes 🟡/🟠 dans `src/constants/indicatorMap.json` puis mettez `"locked": true`.
 
@@ -19,7 +19,7 @@ Corrigez les lignes 🟡/🟠 dans `src/constants/indicatorMap.json` puis mettez
 | urbanisation | ❌ aucun jeu correspondant |  |  |
 | pib | 🔒 verrouillé | Produit intérieur brut par secteur d’activité à prix courants (Annuelle Base 2014) |  |
 | croissance_pib | 🔒 verrouillé | Produit intérieur brut par secteur d’activité en volume aux prix de l’année précédente chaînés (Annuelle Base 2014) |  |
-| pib_habitant | 🟠 incomplet | Décomposition du PIB (CVS) aux prix de l'année precedente chainés (Trimestrielle Base 2014) | colonne année introuvable |
+| pib_habitant | 🟠 incomplet | Décomposition du PIB aux prix courants (Trimestrielle Base 2014) | colonne année introuvable |
 | investissement_pib | 🟠 incomplet | Formation brute de capital fixe par produit à prix courants (Annuelle Base 2014) | table large : ligne de l'indicateur introuvable — renseignez rowMatch |
 | ipc | 🔒 verrouillé | Indice des prix à la consommation (Base 100 2017) |  |
 | inflation | 🔒 verrouillé | Indice des prix à la consommation (Base 100 2017) |  |
